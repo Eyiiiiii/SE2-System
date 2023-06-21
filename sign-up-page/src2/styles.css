@@ -1,24 +1,49 @@
 body {
   background-color: #f5ece2;
+  overflow: hidden;
 }
 
 header {
   background-color: #ddc3a5;
   margin: 0;
   padding: 2px;
+  font-family: 'Poppins', sans-serif;
 }
 
 form {
   position: relative;
   margin: 20px auto 0;
-  width: 30%;
+  max-width: 450px;
   background-color: white;
   padding: 20px;
   border-radius: 15px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+form img {
+  text-align: right;
+  height: 150px;
+  width: 160px;
+  margin: 0px 0px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  top: 50px;
+  margin: 0px auto;
 }
 
 #one {
-  margin-left: 85%;
+  background: #E0A96D;
+  color: white;
+}
+
+#two {
+  color: #E0A96D;
 }
 
 #mic,
@@ -69,12 +94,16 @@ form {
 .hs {
   background-color: white;
   border: none;
-  margin-top: 0.5%;
-  margin-bottom: 0.5%;
-  padding-left: 1%;
-  padding-right: 1%;
-  border-radius: 10px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
   transition: all ease-in-out 200ms;
+  font-size: 12px;
+  position: relative;
+  left: 80%;
 }
 
 .conti {
@@ -140,11 +169,11 @@ span {
 img {
   display: block;
   margin: 0 auto;
-  max-width: 35%;
+  max-width: 100%
 }
 
 h4 {
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
   color: #f2a000;
 }
