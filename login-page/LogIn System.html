@@ -11,6 +11,12 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src1/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,12 +25,12 @@
   </head>
   <body>
     <header>
-      <button class="hs" id="one">home</button>
-      <button class="hs">sign up</button>
+      <button class="hs" id="one">Home</button>
+      <button class="hs" id="two">Sign Up</button>
     </header>
 
     <form>
-      <img src="images/printnmeet.png" />
+      <img src="../images/printnmeet.png" />
       <div class="interface-cont">
         <button class="conti" id="gog" onclick="handleGoogleButtonClick()">
           <i class="fab fa-google"></i> Continue with Google
@@ -70,15 +76,19 @@
       <br />
       <p>Don't have any account? <a id="sp">Sign up</a></p>
     </form>
-    <h4>TUPIANS PRINT & MEET</h4>
-    <hr />
     <div class="footer">
-      <p class="footer-text">© TUPIANS PRINT & MEET</p>
-      <div class="social-icons">
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-youtube"></i>
-        <i class="fab fa-instagram"></i>
+      <p id="typographic-logo">TUPIANS PRINT & MEET</p>
+      <div class="footer-wrapper">
+        <hr />
+        <span
+          ><span><p class="footer-text">© TUPIANS PRINT & MEET</p></span>
+          <span class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+          </span>
+        </span>
       </div>
     </div>
     <script src="src1/index.js"></script>
