@@ -50,6 +50,7 @@ form {
 
 #forgotPass a {
   color: #f2a000;
+  text-decoration: none;
 }
 
 .form-control {
@@ -125,15 +126,24 @@ button.conti i {
 
 .btn-login {
   color: white;
+  margin-top: 10px;
   background-color: #f2a000;
+  border-radius: 10px;
   border: none;
   width: 100%;
   padding: 5px 0 5px;
 }
 
 .conti:hover,
-.hs:hover {
+#two:hover {
   background-color: #e0a96d;
+  color: white;
+  cursor: pointer;
+}
+
+#one:hover {
+  background-color: white;
+  color:  #e0a96d;
   cursor: pointer;
 }
 
@@ -142,7 +152,7 @@ p {
   opacity: 0.5;
 }
 
-p #sp {
+#sp {
   color: #f2a000;
   font-weight: thick;
 }
@@ -205,9 +215,6 @@ hr {
   font-size: smaller;
   text-align: left;
   margin: 0px;
-}
-
-.footer-elements {
 }
 
 .social-icons {
