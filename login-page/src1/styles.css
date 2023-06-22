@@ -17,7 +17,7 @@ header {
 form {
   font-family: 'Titillium Web', sans-serif;
   position: relative;
-  margin: 25px auto 0;
+  margin: 25px auto;
   width: 500px;
   max-height: 500px;
   overflow-y: auto;
