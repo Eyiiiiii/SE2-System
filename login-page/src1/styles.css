@@ -57,6 +57,10 @@ form {
   text-decoration: none;
 }
 
+.sign-up-question {
+  opacity: 0.5;
+}
+
 .form-control {
   border-color: black;
   transition: all ease-in-out 200ms;
@@ -152,35 +156,37 @@ button.conti i {
 
 p {
   text-align: center;
-  opacity: 0.5;
 }
 
 #sp {
   color: #f2a000;
   font-weight: thick;
+  text-decoration: none;
 }
 
-span {
+#or {
   display: block;
-  text-align: center;
   opacity: 0.7;
 }
 
+span {
+  text-align: center;
+}
+
 form img {
-  text-align: right;
-  height: 150px;
+  height: 160px;
   width: 160px;
-  margin: 0px 0px;
+  position: relative;
+  left: 100px;
 }
 
 h1 {
   font-family: "Poppins", sans-serif;
+  color: black;
   font-size: 30px;
   font-weight: bold;
-  text-align: left;
-  position: relative;
-  top: 50px;
-  margin: 0px auto;
+  margin-left: 50px;
+  display: inline;
 }
 
 @keyframes cursor-blink {
