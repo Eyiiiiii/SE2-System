@@ -138,6 +138,7 @@ button.conti i {
 .btn-next {
   color: white;
   background-color: #f2a000;
+  border-radius: 10px;
   border: none;
   padding: 5px 0 5px;
   width: 100%;
