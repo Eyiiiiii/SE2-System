@@ -1,6 +1,9 @@
 body {
   background-color: #f5ece2;
   overflow: hidden;
+  background-image: url(/images/background-2.png);
+  background-blend-mode: luminosity;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -12,7 +15,9 @@ header {
 
 form {
   position: relative;
-  margin: 20px auto 0;
+  margin: 20px auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   max-width: 450px;
   background-color: white;
   padding: 20px;
@@ -21,15 +26,15 @@ form {
 }
 
 form img {
-  text-align: right;
   height: 160px;
   width: 160px;
-  margin: 0px;
-  margin-right: 0px;
+  position: relative;
+  left: 50px;
 }
 
 h1 {
   font-family: "Poppins", sans-serif;
+  color: black;
   font-size: 30px;
   font-weight: bold;
   text-align: left;
@@ -64,9 +69,7 @@ h1 {
 
 #typographic-logo {
   font-weight: bold;
-  margin: 10px;
-  padding: 20px;
-  padding-bottom: 0px;
+  margin: 5px;
   text-align: center;
   color: #f2a000;
   font-size: 17px;
@@ -146,6 +149,7 @@ button.conti i {
   color: white;
   cursor: pointer;
 }
+
 #one:hover {
   background-color: white;
   color: #e0a96d;
@@ -181,11 +185,11 @@ button.conti i {
 
 #or {
   display: block;
+  opacity: 0.7;
 }
 
 span {
   text-align: center;
-  opacity: 0.7;
 }
 
 h4 {
@@ -201,6 +205,7 @@ h4 {
 
 .mb-4 #phrase1 {
   margin-left: 25px;
+  opacity: 0.7;
 }
 
 .mb-4 p,
@@ -213,8 +218,8 @@ h4 {
 
 .footer {
   background: #f5ece2;
-  margin-top: 20px;
-  height: 200px;
+  margin-top: 5px;
+  height: 100px;
   color: black;
   font-size: 12px;
 }
@@ -222,6 +227,11 @@ h4 {
 .footer-wrapper {
   margin: 0 auto;
   width: 900px;
+}
+
+hr {
+  margin: 0px;
+  margin-bottom: 10px;
 }
 
 .footer-text {
@@ -232,11 +242,10 @@ h4 {
 }
 
 .social-icons {
-  display: flex;
-  align-items: center;
+  text-align: right;
   opacity: 0.5;
-  margin-right: 30px;
 }
+
 .social-icons i {
   margin-left: 5px;
 }
