@@ -29,7 +29,7 @@ form img {
   height: 160px;
   width: 160px;
   position: relative;
-  left: 50px;
+  left: 70px;
 }
 
 h1 {
@@ -37,7 +37,7 @@ h1 {
   color: black;
   font-size: 30px;
   font-weight: bold;
-  text-align: left;
+  margin-left: 20px;
   display: inline;
 }
 
