@@ -18,9 +18,11 @@ form {
   margin: 20px auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  max-width: 450px;
+  max-width: 500px;
   background-color: white;
   padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 5px;
   border-radius: 15px;
   font-family: "Titillium Web", sans-serif;
 }
