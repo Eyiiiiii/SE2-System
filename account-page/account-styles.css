@@ -34,12 +34,20 @@
     background: #F6C668;
 }
 
-#log-out {
+ #log-out {
     position: relative;
     top: 140px;
     background: none;
     color: #E0A96D;
     font-weight: lighter;
+}
+
+#print-now-link {
+    color: black;
+}
+
+a {
+    text-decoration: none !important;
 }
 
 ul {
