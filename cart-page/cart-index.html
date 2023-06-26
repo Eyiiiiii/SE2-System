@@ -14,8 +14,10 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Titillium+Web&display=swap"
       rel="stylesheet"
     />
     <script
@@ -33,7 +35,64 @@
       </span>
       <div class="cart">
         <p id="title">Cart</p>
-        <div class="orders"></div>
+        <div class="container text-center orders">
+          <div class="row">
+            <div class="col">
+              <div class="container text-center top-design-order">
+                <div class="row">
+                  <div class="col top-design-order-date">December 25, 2022</div>
+                  <div class="col top-design-order-pending">Pending order</div>
+                </div>
+              </div>
+              <div class="col main-design-order-format">
+                <div class="container main-design-order">
+                  <div class="row">
+                    <div class="col-1 main-design-order-icon">
+                      <i class="fa-solid fa-file-pdf"></i>
+                    </div>
+                    <div class="col-6">
+                      <div class="container main-design-order-texts">
+                        <div class="row main-design-order-file-title">
+                          Activity 3 - SoftEng
+                        </div>
+                        <div class="row main-design-order-file-var">
+                          Variation: Portrait, Letter, Normal Margin
+                        </div>
+                        <div class="row main-design-order-file-info">
+                          120 pages | x1
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col bottom-design-order">
+                  <div class="container">
+                    <div class="row bottom-design-order-format">
+                      <div class="col-4"></div>
+                      <div class="col">
+                        <button
+                          type="button"
+                          class="btn btn-sm bottom-design-order-button"
+                        >
+                          Edit
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm bottom-design-order-button"
+                        >
+                          Check Out
+                        </button>
+                      </div>
+                      <div class="col-3 bottom-design-order-payable-amt">
+                        <span id="amount-payable">Amount Payable: </span>P150
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="nav-bar">
         <img
