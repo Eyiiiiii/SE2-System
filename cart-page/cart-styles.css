@@ -1,6 +1,7 @@
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    overflow: hidden;
 
 }
 
@@ -30,10 +31,14 @@
 .nav-bar {
     background-color: #FCFAF7;
     width: 340px;
-    height: 683px;
+    height: 710px;
     padding: 20px;
     padding-top: 5px;
     margin-right: 10px;
+}
+
+.log-out-nav-bar {
+    color: #E0A96D;
 }
 
 .cart {
@@ -60,7 +65,8 @@
 
 .selection {
     background-color: #F5ECE2;
-    margin: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
     border-radius: 5px;
@@ -93,16 +99,22 @@ button {
 .btn-icon {
     font-size: 30px;
     padding: 3px;
-    margin-right: 30px;
+    padding-top:10px;
+    text-align: justify;
 }
 
 .selected {
     background: #F6C668;
 }
 
+.nav-bar-title {
+    padding-top: 10px;
+    text-align: left;
+    
+}
+
 #log-out {
-    position: relative;
-    top: 140px;
+    font-size: 20px;
     background: none;
     color: #E0A96D;
     font-weight: lighter;
@@ -124,7 +136,6 @@ ul {
 }
 
 hr {
-
     color: black;
     width: 850px;
 }
@@ -184,6 +195,7 @@ hr {
 
 }
 .bottom-design-order-payable-amt {
+    padding-top: 5px;
     font-weight: bold;
     text-align: right;
     border-left: 1px solid black;
