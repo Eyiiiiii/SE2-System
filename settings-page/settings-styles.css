@@ -6,7 +6,7 @@
 }
 
 .wrapper {
-    border: red solid 1px;
+    /*border: red solid 1px;*/
     background-color: #F5ECE2;
     position: relative;
     width: 1534px;
@@ -16,7 +16,7 @@
 .main-content {
     position: absolute;
     left: 340px;
-    border: blue solid 1px;
+    /*border: blue solid 1px;*/
     width: 1193px;
     height: 707px;
 }
@@ -47,7 +47,7 @@
     left: 410px;
     width: 1000px;
     height: 600px;
-    border: 1px green solid;
+    /*border: 1px green solid;*/
 }
 
 #rectangle-line {
@@ -168,4 +168,12 @@ hr {
 
 .user-school-ID {
     font-size: small;
+}
+
+.form-format {
+    margin: 20px;
+}
+
+.change-password-option {
+    color: #F2A000;
 }
