@@ -142,12 +142,12 @@ hr {
 
 .profile-icon {
     font-size: 100px;
-    text-align: right;
+    text-align: center;
 }
 
 .top-settings-user-info {
     height: 140px;
-    padding-top: 5px;
+    padding-top: 10px;
     border-bottom: 1px solid black;
     margin-bottom: 20px;
 }
