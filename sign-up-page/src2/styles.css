@@ -1,6 +1,9 @@
 body {
   background-color: #f5ece2;
   overflow: hidden;
+  background-image: url(/images/background-2.png);
+  background-blend-mode: luminosity;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -12,29 +15,32 @@ header {
 
 form {
   position: relative;
-  margin: 20px auto 0;
-  max-width: 450px;
+  margin: 20px auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 500px;
   background-color: white;
   padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 5px;
   border-radius: 15px;
   font-family: "Titillium Web", sans-serif;
 }
 
 form img {
-  text-align: right;
-  height: 150px;
+  height: 160px;
   width: 160px;
-  margin: 0px 0px;
+  position: relative;
+  left: 70px;
 }
 
 h1 {
   font-family: "Poppins", sans-serif;
+  color: black;
   font-size: 30px;
   font-weight: bold;
-  text-align: left;
-  position: relative;
-  top: 50px;
-  margin: 0px auto;
+  margin-left: 20px;
+  display: inline;
 }
 
 #one {
@@ -65,9 +71,7 @@ h1 {
 
 #typographic-logo {
   font-weight: bold;
-  margin: 10px;
-  padding: 20px;
-  padding-bottom: 0px;
+  margin: 5px;
   text-align: center;
   color: #f2a000;
   font-size: 17px;
@@ -136,13 +140,22 @@ button.conti i {
 .btn-next {
   color: white;
   background-color: #f2a000;
+  border-radius: 10px;
   border: none;
   padding: 5px 0 5px;
   width: 100%;
 }
 
-.conti:hover {
+.conti:hover,
+#two:hover {
   background-color: #e0a96d;
+  color: white;
+  cursor: pointer;
+}
+
+#one:hover {
+  background-color: white;
+  color: #e0a96d;
   cursor: pointer;
 }
 
@@ -173,10 +186,19 @@ button.conti i {
   }
 }
 
-span {
+#or {
   display: block;
-  text-align: center;
   opacity: 0.7;
+}
+
+span {
+  text-align: center;
+}
+
+h4 {
+  margin-top: 10px;
+  text-align: center;
+  color: #f2a000;
 }
 
 .tp {
@@ -186,6 +208,7 @@ span {
 
 .mb-4 #phrase1 {
   margin-left: 25px;
+  opacity: 0.7;
 }
 
 .mb-4 p,
@@ -198,8 +221,8 @@ span {
 
 .footer {
   background: #f5ece2;
-  margin-top: 20px;
-  height: 200px;
+  margin-top: 5px;
+  height: 100px;
   color: black;
   font-size: 12px;
 }
@@ -207,6 +230,11 @@ span {
 .footer-wrapper {
   margin: 0 auto;
   width: 900px;
+}
+
+hr {
+  margin: 0px;
+  margin-bottom: 10px;
 }
 
 .footer-text {
@@ -217,11 +245,10 @@ span {
 }
 
 .social-icons {
-  display: flex;
-  align-items: center;
+  text-align: right;
   opacity: 0.5;
-  margin-right: 30px;
 }
+
 .social-icons i {
   margin-left: 5px;
 }

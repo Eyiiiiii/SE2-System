@@ -16,7 +16,8 @@ header {
 form {
   font-family: "Titillium Web", sans-serif;
   position: relative;
-  margin: 25px auto 0;
+  margin: 25px auto;
+  margin-bottom: 40px;
   width: 500px;
   max-height: 500px;
   overflow-y: auto;
@@ -53,6 +54,11 @@ form {
 
 #forgotPass a {
   color: #f2a000;
+  text-decoration: none;
+}
+
+.sign-up-question {
+  opacity: 0.5;
 }
 
 .form-control {
@@ -109,7 +115,7 @@ form {
   transition: all ease-in-out 200ms;
   font-size: 12px;
   position: relative;
-  left: 75%;
+  left: 80%;
 }
 
 .conti {
@@ -127,48 +133,60 @@ button.conti i {
 
 .btn-login {
   color: white;
+  margin-top: 10px;
   background-color: #f2a000;
+  border-radius: 10px;
   border: none;
   width: 100%;
   padding: 5px 0 5px;
 }
 
-.conti:hover {
+.conti:hover,
+#two:hover {
   background-color: #e0a96d;
+  color: white;
+  cursor: pointer;
+}
+
+#one:hover {
+  background-color: white;
+  color:  #e0a96d;
   cursor: pointer;
 }
 
 p {
   text-align: center;
-  opacity: 0.5;
 }
 
-p #sp {
+#sp {
   color: #f2a000;
   font-weight: thick;
+  text-decoration: none;
 }
 
-span {
+#or {
   display: block;
-  text-align: center;
   opacity: 0.7;
 }
 
+span {
+  text-align: center;
+}
+
 form img {
-  text-align: right;
-  height: 150px;
+  height: 160px;
   width: 160px;
-  margin: 0px 0px;
+  position: relative;
+  left: 100px;
 }
 
 h1 {
   font-family: "Poppins", sans-serif;
+  color: black;
   font-size: 30px;
   font-weight: bold;
-  text-align: left;
-  position: relative;
-  top: 50px;
-  margin: 0px auto;
+  margin-left: 50px;
+  display: inline;
 }
 
 @keyframes cursor-blink {
@@ -203,7 +221,7 @@ h1 {
 
 .footer-wrapper {
   margin: 0 auto;
-  width: 900px;
+  max-width: 1000px;
 }
 
 hr {
