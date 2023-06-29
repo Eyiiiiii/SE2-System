@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create your account | TUPians Print & Meet</title>
+  </head>
+  <body>
+    <header>
+      <button class="hs" id="one">Home</button>
+      <button class="hs" id="two">Sign Up</button>
+    </header>
+
+    <form>
+      <span>
+        <h1 class="mid">Create your account</h1>
+        <br />
+        <br />
+        <h6 id="midtop">Verify that you are a TUPIAN</h6>
+      </span>
+      <br />
+      <br />
+      <div class="mb-3">
+        <label for="studentnumber" class="form-label">Student Number</label>
+        <input type="text" class="form-control" id="studentnumber" />
+      </div>
+      <div class="row">
+        <h6 class="mid">Please confirm your date of birth</h6>
+        <div class="col">
+          <select class="form-select" id="month" name="month">
+            <option value="">month</option>
+            <option value="01">January</option>
+            <option value="02">February</option>
+            <option value="03">March</option>
+            <option value="04">April</option>
+            <option value="05">May</option>
+            <option value="06">June</option>
+            <option value="07">July</option>
+            <option value="08">August</option>
+            <option value="09">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+        </div>
+
+        <div class="col">
+          <select class="form-select" id="day" name="day">
+            <option value="">day</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+        </div>
+
+        <div class="col">
+          <select class="form-select" id="year" name="year">
+            <option value="">year</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+            <option value="2006">2006</option>
+            <option value="2007">2007</option>
+            <option value="2008">2008</option>
+            <option value="2009">2009</option>
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+          </select>
+        </div>
+      </div>
+      <br />
+      <div class="mb-3">
+        <span class="names">First Name</span>
+        <br />
+        <input type="text" name="FirstName" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <span class="names">Last Name</span>
+        <br />
+        <input type="text" name="LasttName" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <label for="loginPassword" class="form-label">Password</label>
+        <input type="password" class="form-control" id="loginPassword" />
+      </div>
+
+      <div class="row">
+        <div class="col" id="mahfile">
+          <label for="myfile">Upload TUP ID card here </label>
+        </div>
+
+        <div class="col">
+          <input type="file" id="myfile" name="myfile" />
+        </div>
+      </div>
+
+      <button type="submit" class="btn-signup">Sign Up</button>
+      <br />
+    </form>
+    <div class="footer">
+      <p id="typographic-logo">TUPIANS PRINT & MEET</p>
+      <div class="footer-wrapper">
+        <hr />
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-6 footer-text">© TUPIANS PRINT & MEET</div>
+            <div class="col-6 social-icons">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src=""></script>
+  </body>
+</html>
