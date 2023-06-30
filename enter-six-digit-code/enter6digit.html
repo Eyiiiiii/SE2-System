@@ -11,7 +11,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="src2/styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,90 +31,86 @@
       <button class="hs" id="two">Login</button>
     </header>
 
-    <form>
+    <form class="otc" name="one-time-code" action="#">
       <span>
         <h1>Enter 6-Digit Code</h1>
       </span>
+      <fieldset>
+        <div>
+          <input
+            type="number"
+            pattern="[0-9]*"
+            value=""
+            inputtype="numeric"
+            autocomplete="one-time-code"
+            id="otc-1"
+            required
+          />
 
-      <form class="otc" name="one-time-code" action="#">
-        <fieldset>
-          <div>
-            <input
-              type="number"
-              pattern="[0-9]*"
-              value=""
-              inputtype="numeric"
-              autocomplete="one-time-code"
-              id="otc-1"
-              required
-            />
-
-            <!-- Autocomplete not to put on other input -->
-            <input
-              type="number"
-              pattern="[0-9]*"
-              min="0"
-              max="9"
-              maxlength="1"
-              value=""
-              inputtype="numeric"
-              id="otc-2"
-              required
-            />
-            <input
-              type="number"
-              pattern="[0-9]*"
-              min="0"
-              max="9"
-              maxlength="1"
-              value=""
-              inputtype="numeric"
-              id="otc-3"
-              required
-            />
-            <input
-              type="number"
-              pattern="[0-9]*"
-              min="0"
-              max="9"
-              maxlength="1"
-              value=""
-              inputtype="numeric"
-              id="otc-4"
-              required
-            />
-            <input
-              type="number"
-              pattern="[0-9]*"
-              min="0"
-              max="9"
-              maxlength="1"
-              value=""
-              inputtype="numeric"
-              id="otc-5"
-              required
-            />
-            <input
-              type="number"
-              pattern="[0-9]*"
-              min="0"
-              max="9"
-              maxlength="1"
-              value=""
-              inputtype="numeric"
-              id="otc-6"
-              required
-            />
-          </div>
-        </fieldset>
-      </form>
-
+          <!-- Autocomplete not to put on other input -->
+          <input
+            type="number"
+            pattern="[0-9]*"
+            min="0"
+            max="9"
+            maxlength="1"
+            value=""
+            inputtype="numeric"
+            id="otc-2"
+            required
+          />
+          <input
+            type="number"
+            pattern="[0-9]*"
+            min="0"
+            max="9"
+            maxlength="1"
+            value=""
+            inputtype="numeric"
+            id="otc-3"
+            required
+          />
+          <input
+            type="number"
+            pattern="[0-9]*"
+            min="0"
+            max="9"
+            maxlength="1"
+            value=""
+            inputtype="numeric"
+            id="otc-4"
+            required
+          />
+          <input
+            type="number"
+            pattern="[0-9]*"
+            min="0"
+            max="9"
+            maxlength="1"
+            value=""
+            inputtype="numeric"
+            id="otc-5"
+            required
+          />
+          <input
+            type="number"
+            pattern="[0-9]*"
+            min="0"
+            max="9"
+            maxlength="1"
+            value=""
+            inputtype="numeric"
+            id="otc-6"
+            required
+          />
+        </div>
+      </fieldset>
       <br />
       <button type="submit" class="btn-confirm">Confirm</button>
     </form>
     <div class="mb-4">
       <p class="tp">
-        <span id="phrase1">Change email address? </span> <a href="#">Change</a>
+        <span>Change email address? </span> <a href="#" id="ph1">Change</a>
       </p>
     </div>
     <div class="footer">
@@ -134,6 +130,6 @@
         </div>
       </div>
     </div>
-    <script src="src2/index.js"></script>
+    <script src=""></script>
   </body>
 </html>
