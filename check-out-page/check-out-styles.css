@@ -364,8 +364,8 @@ hr {
 }
 
 .bot-bar {
-  position: absolute;
-  bottom: 0px;
+  position: relative;
+  top: 20px;
   border-radius: 10px;
   background-color: #b5aea8;
   height: 150px;
