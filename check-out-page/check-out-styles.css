@@ -144,6 +144,7 @@ hr {
   border-radius: 15px;
   height: 160px;
   padding-top: 12px;
+  height: 350px;
 }
 
 .top-design-order {
@@ -160,12 +161,7 @@ hr {
 }
 
 .main-design-order-format {
-  margin-left: 30px;
   margin-right: 30px;
-}
-
-.main-design-order {
-  border-bottom: 1px black solid;
 }
 
 .main-design-order-icon {
@@ -196,7 +192,6 @@ hr {
   padding-top: 5px;
   font-weight: bold;
   text-align: right;
-  border-left: 1px solid black;
 }
 
 #amount-payable {
@@ -223,4 +218,49 @@ hr {
 
 #to-pay {
   width: 50%;
+}
+
+.first-wrap {
+  background-color: #f7ebeb;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 15px;
+}
+
+#order {
+  font-weight: bold !important;
+  padding-top: 5px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#pdf {
+  margin-left: 20px;
+}
+
+#method {
+  width: 250px;
+  border-radius: 20px;
+  margin-left: 190px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#payment {
+  font-weight: bold !important;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+
+.second-wrap {
+  background-color: #f7ebeb;
+  border-radius: 15px;
+  margin-top: 7px;
+}
+
+.third-wrap {
+  background-color: #f7ebeb;
+  border-radius: 15px;
+  margin-top: 7px;
 }
