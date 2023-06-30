@@ -1,7 +1,7 @@
 * {
   font-family: "Poppins", sans-serif;
   margin: 0px;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 .wrapper {
@@ -40,7 +40,7 @@
   color: #e0a96d;
 }
 
-.cart {
+.check-out {
   position: absolute;
   top: 55px;
   left: 410px;
@@ -144,7 +144,16 @@ hr {
   border-radius: 15px;
   height: 160px;
   padding-top: 12px;
-  height: 350px;
+  height: 500px;
+}
+
+.delivery-info {
+  /*border: 1px solid maroon;*/
+  margin-top: 20px;
+}
+
+.delivery-deets-text {
+  text-align: left;
 }
 
 .top-design-order {
@@ -160,14 +169,75 @@ hr {
   text-align: right;
 }
 
+.main-design-order {
+  border: 1px solid black;
+  margin: 0 auto !important;
+  background-color: #f7ebeb;
+  border-radius: 10px;
+  height: 110px;
+}
+
+.main-design-payment-method {
+  border: 1px solid black;
+  margin: 0 auto !important;
+  background-color: #f7ebeb;
+  border-radius: 10px;
+  height: 50px;
+}
+
+.main-design-delivery-deets {
+  border: 1px solid black;
+  margin: 0 auto !important;
+  background-color: #f7ebeb;
+  border-radius: 10px;
+  height: 145px;
+}
+
+.order-main-design-title {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 15px !important;
+}
+
+.payment-method-main-title {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 27px !important;
+  padding-top: 12px;
+}
+
+.delivery-deets-main-title {
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.change-link {
+  position: relative;
+  text-align: right;
+  top: 110px;
+  right: 30px;
+  margin: 0px;
+}
+
+.main-design-order-texts {
+  text-align: left;
+}
+
 .main-design-order-format {
-  margin-right: 30px;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+  padding: 10px;
+  padding-bottom: 0px;
 }
 
 .main-design-order-icon {
   font-size: 50px;
   text-align: right;
-  padding-left: 20px;
+}
+
+.col-6 {
+  padding: 0px !important;
 }
 
 .main-design-order-file-title {
@@ -196,6 +266,39 @@ hr {
 
 #amount-payable {
   color: #f2a000;
+  text-align: right;
+  background-color: #f7ebeb;
+  border-radius: 10px;
+  max-width: 210px !important;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+#price {
+  color: black;
+  font-weight: bold;
+}
+
+.amount-payable-format {
+  margin-top: 20px !important;
+  padding-bottom: 20px !important;
+  border-bottom: 3px black solid;
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+}
+
+.confirm-btn-format {
+  text-align: right;
+  margin: 10px !important;
+}
+
+#confirm-btn {
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  color: white;
+  font-weight: bold;
+  background-color: #e0a96d;
 }
 
 .bottom-design-order-button {
@@ -234,16 +337,12 @@ hr {
   margin-left: 20px;
 }
 
-#pdf {
-  margin-left: 20px;
-}
-
 #method {
-  width: 250px;
+  width: 300px;
   border-radius: 20px;
+  margin-top: 5px;
   margin-left: 190px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  text-align: center;
 }
 
 #payment {
