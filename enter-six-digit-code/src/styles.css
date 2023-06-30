@@ -39,8 +39,12 @@ h1 {
   color: black;
   font-size: 30px;
   font-weight: bold;
-  margin-left: 20px;
+  margin-left: 10px;
   display: inline;
+}
+
+fieldset {
+  margin-top: 40px;
 }
 
 #one {
@@ -64,6 +68,34 @@ h1 {
   text-align: center;
   color: #f2a000;
   font-size: 17px;
+}
+
+input[type="number"] {
+  width: 1.6em;
+  line-height: 1;
+  margin: 0.1em;
+  padding: 8px 0 4px;
+  font-size: 2.65em;
+  text-align: center;
+  appearance: textfield;
+  -webkit-appearance: textfield;
+  border: 2 px solid black;
+  color: #f2a000;
+  border-radius: 10px;
+}
+
+.otc {
+  position: relative;
+}
+
+.otc fieldset {
+  border: 0;
+  padding: 0;
+}
+
+.otc fieldset div {
+  display: flex;
+  align-items: center;
 }
 
 .hs {
