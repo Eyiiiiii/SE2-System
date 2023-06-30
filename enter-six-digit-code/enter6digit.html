@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src2/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enter 6-Digit Code | TUPians Print & Meet</title>
+  </head>
+  <body>
+    <header>
+      <button class="hs" id="one">Home</button>
+      <button class="hs" id="two">Login</button>
+    </header>
+
+    <form>
+      <span>
+        <h1>Enter 6-Digit Code</h1>
+      </span>
+
+      <form class="otc" name="one-time-code" action="#">
+        <fieldset>
+          <div>
+            <input
+              type="number"
+              pattern="[0-9]*"
+              value=""
+              inputtype="numeric"
+              autocomplete="one-time-code"
+              id="otc-1"
+              required
+            />
+
+            <!-- Autocomplete not to put on other input -->
+            <input
+              type="number"
+              pattern="[0-9]*"
+              min="0"
+              max="9"
+              maxlength="1"
+              value=""
+              inputtype="numeric"
+              id="otc-2"
+              required
+            />
+            <input
+              type="number"
+              pattern="[0-9]*"
+              min="0"
+              max="9"
+              maxlength="1"
+              value=""
+              inputtype="numeric"
+              id="otc-3"
+              required
+            />
+            <input
+              type="number"
+              pattern="[0-9]*"
+              min="0"
+              max="9"
+              maxlength="1"
+              value=""
+              inputtype="numeric"
+              id="otc-4"
+              required
+            />
+            <input
+              type="number"
+              pattern="[0-9]*"
+              min="0"
+              max="9"
+              maxlength="1"
+              value=""
+              inputtype="numeric"
+              id="otc-5"
+              required
+            />
+            <input
+              type="number"
+              pattern="[0-9]*"
+              min="0"
+              max="9"
+              maxlength="1"
+              value=""
+              inputtype="numeric"
+              id="otc-6"
+              required
+            />
+          </div>
+        </fieldset>
+      </form>
+
+      <br />
+      <button type="submit" class="btn-confirm">Confirm</button>
+    </form>
+    <div class="mb-4">
+      <p class="tp">
+        <span id="phrase1">Change email address? </span> <a href="#">Change</a>
+      </p>
+    </div>
+    <div class="footer">
+      <p id="typographic-logo">TUPIANS PRINT & MEET</p>
+      <div class="footer-wrapper">
+        <hr />
+        <div class="container text-center">
+          <div class="row">
+            <div class="col footer-text">© TUPIANS PRINT & MEET</div>
+            <div class="col social-icons">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src2/index.js"></script>
+  </body>
+</html>
