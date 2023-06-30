@@ -41,13 +41,13 @@
     color: #E0A96D;
 }
 
-.cart {
+.to-pay {
     position: absolute;
     top: 55px;
     left: 410px;
     width: 1000px;
     height: 600px;
-    /*border: 1px green solid;*/
+    border: 1px green solid;
 }
 
 #rectangle-line {
@@ -56,7 +56,7 @@
     position: absolute;
     top: 80px;
     left: 88px;
-    padding-right: 50px;
+    padding-right: 80px;
 }
 
 .logo {
@@ -140,8 +140,8 @@ hr {
     width: 850px;
 }
 
-.orders {
-    /*border: 1px yellow solid;*/
+.to-pay-order {
+    border: 1px yellow solid;
     background: white;
     border-radius: 15px;
     height: 160px;
@@ -214,68 +214,76 @@ hr {
     max-width: 150px;
 }
 
-.bottom-bar {
-    /*border: 1px purple solid;*/
-
-    max-width: 980px !important;
+.bot-bar {
     position: absolute;
-    background-color: #B5AEA8;
-    border-radius: 10px;
     bottom: 0px;
+    border-radius: 10px;
+    background-color: #B5AEA8;
     height: 150px;
+    /*border: 1px solid black;*/
 }
 
-.bottom-bar-box {
-    margin-top: 12px !important;
-    /*border: 1px black solid;*/
-    margin: 20px;
-    margin-right: 40px;
-    max-width: 120px !important;
+.bot-bar-box {
+    /*border: 1px solid black;*/
+    margin-top: 15px !important;
     height: 120px;
-    border-radius: 5px;
+}
+
+.bot-bar-box-1 {
+    /*border: 1px solid red;*/
     background-color: #E8E7E6;
+    border-radius: 5px;
+    height: 120px;
+    margin: 12px;
 }
 
-#to-pay, #to-print{ 
-    margin-top: 10px;
-    margin-right: 10px;
-    max-width: 80px;
+#vertical-align {
+    border-left: 4px solid white;
+    padding-left: 30px !important;
 }
 
-#to-deliver, #to-rate {
-    max-width: 80px;
+#to-pay-img, #to-print-img {
+    width: 100%;
 }
 
-.bottom-bar-box-title {
-    margin-top: 5px !important;
+#to-rate-img, #to-deliver-img {
+    width: 90%;
 }
 
-.bottom-bar-username {
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
+.bot-box-format {
+    /*border: 1px solid pink;*/
+    height: 83px !important;
 }
 
-.bottom-bar-section {
+.bot-bar-box-format-1 {
+    padding: 0px !important;
+}
+
+.bot-bar-info {
+    /*border: 1px orange solid;*/
+    margin-top: 14px !important;
+    margin: 10px;
+    height: 120px;
+    padding: 0px !important;
+}
+
+.bot-bar-info-pic {
+    /*border: 1px solid brown;*/
+    height: 85px;
+    font-size: 80px;
+}
+
+.user-icon {
+    position: relative;
+    bottom: 25px;
+}
+
+.bot-bar-user-section {
     font-size: small;
     color: white;
 }
 
-.account-info {
-    font-size: 70px;
-}
-
-.bottom-bar-box-format {
-    margin: 10px !important;
-    margin-top: 15px !important;
-    height: 120px;
-    border-right: 4px solid white;
-}
-
-.h-format {
-    height: 90px;
-}
-
-.col-3 {
-    padding: 0px !important;
+.bot-bar-user-name {
+    color: white;
+    font-weight: bold;
 }
