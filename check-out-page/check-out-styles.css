@@ -1,23 +1,22 @@
 * {
   font-family: "Poppins", sans-serif;
   margin: 0px;
-  overflow: hidden;
 }
 
 .wrapper {
-  border: red solid 1px;
+  /*border: red solid 1px;*/
   background-color: #f5ece2;
   position: relative;
   width: 1534px;
-  height: 710px;
+  height: 800px;
 }
 
 .main-content {
   position: absolute;
   left: 340px;
-  border: blue solid 1px;
+  /*border: blue solid 1px;*/
   width: 1193px;
-  height: 707px;
+  height: 800px;
 }
 
 #top-inv-bar {
@@ -30,7 +29,7 @@
 .nav-bar {
   background-color: #fcfaf7;
   width: 340px;
-  height: 710px;
+  height: 800px;
   padding: 20px;
   padding-top: 5px;
   margin-right: 10px;
@@ -45,8 +44,8 @@
   top: 55px;
   left: 410px;
   width: 1000px;
-  height: 600px;
-  border: 1px green solid;
+  height: 700px;
+  /*border: 1px green solid;*/
 }
 
 #rectangle-line {
@@ -139,7 +138,7 @@ hr {
 }
 
 .orders {
-  border: 1px yellow solid;
+  /*border: 1px yellow solid;*/
   background: white;
   border-radius: 15px;
   height: 160px;
@@ -170,7 +169,7 @@ hr {
 }
 
 .main-design-order {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   margin: 0 auto !important;
   background-color: #f7ebeb;
   border-radius: 10px;
@@ -178,7 +177,7 @@ hr {
 }
 
 .main-design-payment-method {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   margin: 0 auto !important;
   background-color: #f7ebeb;
   border-radius: 10px;
@@ -186,7 +185,7 @@ hr {
 }
 
 .main-design-delivery-deets {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   margin: 0 auto !important;
   background-color: #f7ebeb;
   border-radius: 10px;
@@ -215,7 +214,7 @@ hr {
 .change-link {
   position: relative;
   text-align: right;
-  top: 110px;
+  top: 95px;
   right: 30px;
   margin: 0px;
 }
@@ -341,7 +340,7 @@ hr {
   width: 300px;
   border-radius: 20px;
   margin-top: 5px;
-  margin-left: 190px;
+  margin-left: 140px;
   text-align: center;
 }
 
@@ -362,4 +361,80 @@ hr {
   background-color: #f7ebeb;
   border-radius: 15px;
   margin-top: 7px;
+}
+
+.bot-bar {
+  position: absolute;
+  bottom: 0px;
+  border-radius: 10px;
+  background-color: #b5aea8;
+  height: 150px;
+  /*border: 1px solid black;*/
+}
+
+.bot-bar-box {
+  /*border: 1px solid black;*/
+  margin-top: 15px !important;
+  height: 120px;
+}
+
+.bot-bar-box-1 {
+  /*border: 1px solid red;*/
+  background-color: #e8e7e6;
+  border-radius: 5px;
+  height: 120px;
+  margin: 12px;
+}
+
+#vertical-align {
+  border-left: 4px solid white;
+  padding-left: 30px !important;
+}
+
+#to-pay-img,
+#to-print-img {
+  width: 100%;
+}
+
+#to-rate-img,
+#to-deliver-img {
+  width: 90%;
+}
+
+.bot-box-format {
+  /*border: 1px solid pink;*/
+  height: 83px !important;
+}
+
+.bot-bar-box-format-1 {
+  padding: 0px !important;
+}
+
+.bot-bar-info {
+  /*border: 1px orange solid;*/
+  margin-top: 14px !important;
+  margin: 10px;
+  height: 120px;
+  padding: 0px !important;
+}
+
+.bot-bar-info-pic {
+  /*border: 1px solid brown;*/
+  height: 85px;
+  font-size: 80px;
+}
+
+.user-icon {
+  position: relative;
+  bottom: 25px;
+}
+
+.bot-bar-user-section {
+  font-size: small;
+  color: white;
+}
+
+.bot-bar-user-name {
+  color: white;
+  font-weight: bold;
 }
