@@ -30,7 +30,6 @@ form {
   border-color: black;
   transition: all ease-in-out 200ms;
   position: relative;
-  padding-left: 35px;
 }
 
 .form-control:hover {
