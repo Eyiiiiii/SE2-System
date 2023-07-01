@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Check Out | TUPians Print and Meet</title>
+    <title>To Print | TUPians Print and Meet</title>
     <link href="to-print-styles.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,15 +33,15 @@
       <span id="top-inv-bar"
         ><i class="fa-solid fa-cart-shopping" style="color: #f2a000"></i>
       </span>
-      <div class="check-out">
-        <p id="title">Check Out</p>
+      <div class="to-print">
+        <p id="title">To Print</p>
         <div class="container text-center orders">
           <div class="row">
             <div class="col">
               <div class="container text-center top-design-order">
                 <div class="row">
                   <div class="col top-design-order-date">December 25, 2022</div>
-                  <div class="col top-design-order-pending">Pending Order</div>
+                  <div class="col top-design-order-pending">Printing documents</div>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@
                   <div class="col main-design-order">
                     <div class="container">
                       <div class="row">
-                        <div class="col order-main-design-title">ORDER</div>
+                        <div class="col order-main-design-title">ORDER DETAILS</div>
                       </div>
                       <div class="row">
                         <div class="col-1 main-design-order-icon">
@@ -71,7 +71,7 @@
                             </div>
                             <div class="row">
                               <div class="col main-design-order-file-info">
-                                x1
+                                120 pages | x1
                               </div>
                             </div>
                           </div>
@@ -87,18 +87,10 @@
             <div class="col main-design-order-format">
               <div class="container main-design-payment-method"">
                 <div class="row">
-                  <div class="col payment-method-main-title">PAYMENT METHOD</div>
-                  <div class="col">
-                    <select
-                        class="form-select"
-                        name="method"
-                        id="method"
-                      >
-                      <option value="">Select Payment Method</option>
-                      <option value="01">Cash On Delivery</option>
-                      <option value="02">G-Cash</option>
-                      </select>
-                  </div>
+                  <div class="col payment-method-main-title">
+                    PAYMENT METHOD:
+                  <span id="payment-method-choice">Cash on Delivery</span>
+                </div>
                 </div>
               </div>
             </div>
@@ -107,51 +99,19 @@
             <div class="col main-design-order-format">
               <div class="container main-design-delivery-deets">
                 <div class="row">
-                  <div class="col">
-                    <div class="container delivery-info">
-                      <div class="row">
-                        <div class="col delivery-deets-main-title">
-                          DELIVERY DETAILS
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col delivery-deets-text">
-                          Location: COS Bldg. 03
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col delivery-deets-text">
-                          Date: January 26, 2023 
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col delivery-deets-text">
-                          Time: 3:00 PM
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <p class="change-link">Change</p>
+                  <div class="col delivery-deets-main-title">
+                      DELIVERY DETAILS:
+                      <span id="payment-method-choice">COS BLDG. 03, January 26, 3:00 PM</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="container">
-              <div class="row amount-payable-format">
-                <div class="col"></div>
-                <div class="col" id="amount-payable">Amount Payable: <span id="price">P150</span></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="container">
-              <div class="row confirm-btn-format">
-                <div class="col"></div>
-                <div class="col">
-                  <button id="confirm-btn">CONFIRM</button>
+            <div class="col main-design-order-format">
+              <div class="container main-design-delivery-deets ">
+                <div class="row">
+                  <div class="col delivery-deets-main-title" id="total">TOTAL: <span id="total-price">P150</span></div>
                 </div>
               </div>
             </div>

@@ -39,7 +39,7 @@
     color: #e0a96d;
   }
   
-  .check-out {
+  .to-print {
     position: absolute;
     top: 55px;
     left: 410px;
@@ -54,7 +54,7 @@
     position: absolute;
     top: 80px;
     left: 88px;
-    padding-right: 130px;
+    padding-right: 90px;
   }
   
   .logo {
@@ -143,12 +143,7 @@
     border-radius: 15px;
     height: 160px;
     padding-top: 12px;
-    height: 500px;
-  }
-  
-  .delivery-info {
-    /*border: 1px solid maroon;*/
-    margin-top: 20px;
+    height: 350px;
   }
   
   .delivery-deets-text {
@@ -189,13 +184,14 @@
     margin: 0 auto !important;
     background-color: #f7ebeb;
     border-radius: 10px;
-    height: 145px;
+    height: 45px;
   }
   
   .order-main-design-title {
     font-weight: bold;
     text-align: left;
     padding-left: 15px !important;
+    padding-top: 5px !important;
   }
   
   .payment-method-main-title {
@@ -208,7 +204,8 @@
   .delivery-deets-main-title {
     font-weight: bold;
     text-align: left;
-    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-top: 10px !important;
   }
   
   .change-link {
@@ -263,9 +260,9 @@
     text-align: right;
   }
   
-  #amount-payable {
-    color: #f2a000;
-    text-align: right;
+  #total {
+    color: black;
+    text-align: left;
     background-color: #f7ebeb;
     border-radius: 10px;
     max-width: 210px !important;
@@ -276,6 +273,14 @@
   #price {
     color: black;
     font-weight: bold;
+  }
+
+  #total-price {
+    color: black;
+    background: #E0A96D;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
   }
   
   .amount-payable-format {
@@ -337,11 +342,13 @@
   }
   
   #method {
-    width: 300px;
-    border-radius: 20px;
-    margin-top: 5px;
-    margin-left: 140px;
-    text-align: center;
+    padding: 15px;
+    text-align: right;
+  }
+
+  #payment-method-choice {
+    font-weight: normal;
+    margin-left: 50px;
   }
   
   #payment {
@@ -365,7 +372,7 @@
   
   .bot-bar {
     position: relative;
-    top: 20px;
+    top: 130px;
     border-radius: 10px;
     background-color: #b5aea8;
     height: 150px;
