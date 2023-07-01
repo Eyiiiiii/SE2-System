@@ -135,6 +135,7 @@ ul {
 
 #list {
   border: 1px green solid;
+  margin-top: 10px;
 }
 
 #reminder {
@@ -203,6 +204,10 @@ hr {
   font-weight: bold;
   text-align: right;
   border-left: 1px solid black;
+}
+
+.separate {
+  border: 1px purple solid;
 }
 
 #amount-payable {
