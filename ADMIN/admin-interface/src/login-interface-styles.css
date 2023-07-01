@@ -26,41 +26,6 @@ form {
   border-radius: 15px;
 }
 
-#one {
-  background: #e0a96d;
-  color: white;
-}
-
-#two {
-  color: #e0a96d;
-}
-
-#two:hover {
-  color: white;
-  background-color: #e0a96d;
-}
-
-#mic,
-#gog {
-  text-align: left;
-  width: 100%;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-#gog {
-  margin-bottom: 10px;
-}
-
-#forgotPass a {
-  color: #f2a000;
-  text-decoration: none;
-}
-
-.sign-up-question {
-  opacity: 0.5;
-}
-
 .form-control {
   border-color: black;
   transition: all ease-in-out 200ms;
@@ -92,18 +57,6 @@ form {
   opacity: 1;
 }
 
-.input-icon {
-  position: relative;
-}
-
-.input-icon i {
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1;
-}
-
 .hs {
   border: none;
   font-weight: bold;
@@ -118,17 +71,16 @@ form {
   left: 80%;
 }
 
-.conti {
-  transition: all ease-in-out 200ms;
+#one {
+  background: #e0a96d;
+  color: white;
+  margin-left: 125px;
 }
 
-button.conti i {
-  margin-right: 10px;
-}
-
-.interface-cont {
-  text-align: center;
-  margin-top: 6%;
+#one:hover {
+  background-color: white;
+  color: #e0a96d;
+  cursor: pointer;
 }
 
 .btn-login {
@@ -141,32 +93,9 @@ button.conti i {
   padding: 5px 0 5px;
 }
 
-.conti:hover,
-#two:hover {
-  background-color: #e0a96d;
-  color: white;
-  cursor: pointer;
-}
-
-#one:hover {
-  background-color: white;
-  color: #e0a96d;
-  cursor: pointer;
-}
-
-p {
-  text-align: center;
-}
-
-#sp {
+#forgotPass a {
   color: #f2a000;
-  font-weight: thick;
   text-decoration: none;
-}
-
-#or {
-  display: block;
-  opacity: 0.7;
 }
 
 span {
