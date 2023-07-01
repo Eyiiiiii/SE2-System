@@ -9,15 +9,15 @@
   background-color: #f5ece2;
   position: relative;
   width: 1534px;
-  height: 710px;
+  height: 800px;
 }
 
 .main-content {
   position: absolute;
   left: 340px;
-  border: blue solid 1px;
+  /* border: blue solid 1px; */
   width: 1193px;
-  height: 707px;
+  height: 800px;
 }
 
 #top-inv-bar {
@@ -30,7 +30,7 @@
 .nav-bar {
   background-color: #fcfaf7;
   width: 340px;
-  height: 710px;
+  height: 800px;
   padding: 20px;
   padding-top: 5px;
   margin-right: 10px;
@@ -46,7 +46,7 @@
   left: 410px;
   width: 1000px;
   height: 600px;
-  border: 1px green solid;
+  /* border: 1px green solid; */
 }
 
 #rectangle-line {
@@ -134,13 +134,23 @@ ul {
 }
 
 #list {
-  border: 1px green solid;
-  margin-top: 10px;
+  /*border: 1px green solid;*/
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #reminder {
   font-size: small;
   text-align: left;
+}
+
+.numbers {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.details {
+  font-weight: 500;
 }
 
 hr {
@@ -149,10 +159,10 @@ hr {
 }
 
 .orders {
-  border: 1px yellow solid;
+  /* border: 1px yellow solid; */
   background: white;
   border-radius: 15px;
-  height: 160px;
+  height: 250px;
   padding-top: 12px;
 }
 
@@ -207,7 +217,7 @@ hr {
 }
 
 .separate {
-  border: 1px purple solid;
+  border-right: 1px black solid;
 }
 
 #amount-payable {
