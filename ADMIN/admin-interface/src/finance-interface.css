@@ -109,7 +109,7 @@
   border: 1px yellow solid;
   background: white;
   border-radius: 15px;
-  height: 250px;
+  height: 270px;
   padding-top: 12px;
 }
 
@@ -140,4 +140,16 @@
 .bankacc-format {
   margin-right: 230px !important;
   margin-top: 10px !important;
+}
+
+.bg-details {
+  margin-top: 15px;
+}
+
+.pen {
+  margin-left: 10px !important;
+}
+
+.gcash-details {
+  margin-right: 260px;
 }
