@@ -15,7 +15,7 @@
 .main-content {
   position: absolute;
   left: 340px;
-  border: blue solid 1px;
+  /*border: blue solid 1px;*/
   width: 1193px;
   height: 800px;
 }
@@ -39,7 +39,7 @@
   left: 410px;
   width: 1000px;
   height: 600px;
-  border: 1px green solid;
+  /*border: 1px green solid;*/
 }
 
 .logo {
@@ -106,7 +106,7 @@
 }
 
 .finance {
-  border: 1px yellow solid;
+  /*border: 1px yellow solid;*/
   background: white;
   border-radius: 15px;
   height: 270px;
