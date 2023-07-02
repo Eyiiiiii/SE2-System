@@ -5,11 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin To Do List | TUPians Print and Meet</title>
-    <link
-      href="src/to-do-list-interface-styles.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="src/finance-interface.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,7 +29,7 @@
     <div class="wrapper">
       <div class="main-content"></div>
       <div class="admin">
-        <div class="container text-center orders">
+        <div class="container finance">
           <div class="row">
             <div class="col">
               <div class="container">
@@ -43,10 +39,25 @@
                       <div class="col" id="title">My Income</div>
                     </div>
                     <div class="row">
-                      <div class="col" id="reminder">P160.00</div>
+                      <div class="col" id="money">P160.00</div>
                       <div class="col">
                         <button id="withdraw">Withdraw</button>
                       </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col line"></div>
+                  </div>
+                </div>
+
+                <div class="container">
+                  <div class="row"></div>
+                  <div class="row bankacc-format">
+                    <div class="col-2" id="bank-label">Bank Accounts</div>
+                    <div class="col">
+                      <button id="add-bank">Add bank account</button>
                     </div>
                   </div>
                 </div>

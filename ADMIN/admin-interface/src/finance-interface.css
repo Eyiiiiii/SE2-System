@@ -15,7 +15,7 @@
 .main-content {
   position: absolute;
   left: 340px;
-  /* border: blue solid 1px; */
+  border: blue solid 1px;
   width: 1193px;
   height: 800px;
 }
@@ -39,7 +39,7 @@
   left: 410px;
   width: 1000px;
   height: 600px;
-  /* border: 1px green solid; */
+  border: 1px green solid;
 }
 
 .logo {
@@ -84,39 +84,60 @@
 }
 
 #title {
+  font-weight: bolder;
+  font-size: 14px;
+  text-align: left;
+  color: #f2a000;
+}
+
+#money {
+  text-align: left;
   font-weight: bold;
-  font-size: 18px;
-  text-align: left;
+  font-size: 54px;
 }
 
-#list {
-  /*border: 1px green solid;*/
+#withdraw {
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  background-color: #efd4b6;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-left: 310px;
 }
 
-#reminder {
-  font-size: small;
-  text-align: left;
-}
-
-.numbers {
-  font-size: 45px;
-  font-weight: 600;
-}
-
-.details {
-  font-weight: 500;
-}
-
-.orders {
-  /* border: 1px yellow solid; */
+.finance {
+  border: 1px yellow solid;
   background: white;
   border-radius: 15px;
   height: 250px;
   padding-top: 12px;
 }
 
-.separate {
-  border-right: 1px black solid;
+.line {
+  border: 1px solid black;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+#bank-label {
+  color: #f2a000;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: -10px;
+  margin-top: 5px;
+  text-align: right;
+}
+
+#add-bank {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #efd4b6;
+  text-align: left;
+}
+
+.bankacc-format {
+  margin-right: 230px !important;
+  margin-top: 10px !important;
 }
