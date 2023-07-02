@@ -135,6 +135,8 @@
   color: white;
   background-color: #efd4b6;
   text-align: left;
+  font-size: 12px;
+  height: 25px;
 }
 
 .bankacc-format {
