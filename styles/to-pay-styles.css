@@ -10,7 +10,7 @@
     background-color: #F5ECE2;
     position: relative;
     width: 1534px;
-    height: 710px;
+    height: 760px;
 }
 
 .main-content {
@@ -31,7 +31,7 @@
 .nav-bar {
     background-color: #FCFAF7;
     width: 340px;
-    height: 710px;
+    height: 760px;
     padding: 20px;
     padding-top: 5px;
     margin-right: 10px;
@@ -192,6 +192,7 @@ hr {
 
 .bottom-design-order-format {
     padding: 5px;
+    text-align: right;
 
 }
 .bottom-design-order-payable-amt {
@@ -216,7 +217,7 @@ hr {
 
 .bot-bar {
     position: absolute;
-    bottom: 0px;
+    top: 500px;
     border-radius: 10px;
     background-color: #B5AEA8;
     height: 150px;
@@ -287,3 +288,11 @@ hr {
     color: white;
     font-weight: bold;
 }
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none !important;
+    color: unset !important;
+    cursor: pointer !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+ }
