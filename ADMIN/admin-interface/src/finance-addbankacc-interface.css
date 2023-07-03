@@ -1,0 +1,141 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.wrapper {
+  /*border: red solid 1px;*/
+  background-color: #f5ece2;
+  position: relative;
+  width: 1534px;
+  height: 800px;
+}
+
+.nav-bar {
+  background-color: #fcfaf7;
+  width: 340px;
+  height: 800px;
+  padding: 20px;
+  padding-top: 5px;
+  margin-right: 10px;
+}
+
+.log-out-nav-bar {
+  color: #e0a96d;
+}
+
+.finance {
+  border: 1px yellow solid;
+  background: white;
+  border-radius: 15px;
+  height: 270px;
+  width: 927px !important;
+  padding-top: 12px;
+  margin-left: 35px !important;
+}
+
+.add-bank-acc {
+  position: absolute;
+  top: 55px;
+  left: 410px;
+  width: 1000px;
+  height: 600px;
+  border: 1px green solid;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 3px;
+  color: #f2a000;
+}
+
+#full-name {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#account-name {
+  margin-top: 20px;
+}
+
+.btn-format {
+  margin-top: 50px;
+  text-align: right;
+}
+
+#an,
+#bn,
+#fn {
+  background-color: #e0a96d;
+}
+
+#cancel {
+  background-color: white;
+  border-radius: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#submit {
+  color: white;
+  background-color: #f2a000;
+  border: none;
+  border-radius: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#cancel:hover {
+  background-color: #f2a000;
+  color: white;
+  border: none;
+}
+
+#submit:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.logo {
+  width: 60%;
+}
+
+.selection {
+  background-color: #f5ece2;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.p-2 {
+  padding: 0.75rem !important;
+}
+
+.btn-icon {
+  font-size: 30px;
+  padding: 3px;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.selected {
+  background: #f6c668;
+}
+
+.nav-bar-title {
+  padding-top: 10px;
+  text-align: left;
+}
+
+#log-out {
+  font-size: 20px;
+  background: none;
+  color: #e0a96d;
+  font-weight: lighter;
+}
