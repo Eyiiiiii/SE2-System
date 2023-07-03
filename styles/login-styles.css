@@ -159,7 +159,7 @@ p {
 }
 
 #sp {
-  color: #f2a000;
+  color: #f2a000 !important;
   font-weight: thick;
   text-decoration: none;
 }
@@ -243,4 +243,12 @@ hr {
 
 .social-icons i {
   margin-left: 5px;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none !important;
+  color: unset !important;
+  cursor: pointer !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }

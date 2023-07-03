@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Account | TUPians Print and Meet</title>
-    <link href="account-styles.css" rel="stylesheet" type="text/css" />
+    <link href="/styles/account-styles.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,7 +25,7 @@
   <body>
     <div class="wrapper">
       <div class="main-content">
-        <img src="account-images/main-pic.png" id="main-view" />
+        <img src="images/account-images/main-pic.png" id="main-view" />
         <span id="rectangle-line">&nbsp</span>
         <div class="price-list">
           <p id="title">Price List</p>
@@ -73,35 +73,44 @@
               <p id="user-id">TUP-20-3882</p>
             </div>
             <span id="horizontal-line">&nbsp</span>
-            <a href="/to-pay-page/to-pay-index.html">
-              <div class="icon-box">
-                <img src="account-images/to-pay.png" id="to-pay-icon" />
+            <div class="icon-box">
+              <a href="to-pay.html">
+                <img src="images/account-images/to-pay.png" id="to-pay-icon" />
                 <p class="acc-text">To pay</p>
-              </div>
-            </a>
-            <a href="/to-print-page/to-print-index.html">
-              <div class="icon-box grid-2">
-                <img src="account-images/to-print.png" id="to-print-icon" />
+              </a>
+            </div>
+            <div class="icon-box grid-2">
+              <a href="to-print.html">
+                <img
+                  src="images/account-images/to-print.png"
+                  id="to-print-icon"
+                />
                 <p class="acc-text">To print</p>
-              </div>
-            </a>
-            <a href="/to-deliver-page/to-deliver-index.html">
-              <div class="icon-box grid-3">
-                <img src="account-images/to-deliver.png" id="to-deliver-icon" />
+              </a>
+            </div>
+            <div class="icon-box grid-3">
+              <a href="to-deliver.html">
+                <img
+                  src="images/account-images/to-deliver.png"
+                  id="to-deliver-icon"
+                />
                 <p class="acc-text">To deliver</p>
-              </div>
-            </a>
-            <a href="/to-rate-page/to-rate-index.html">
+              </a>
+            </div>
+            <a href="to-rate.html">
               <div class="icon-box grid-4">
-                <img src="account-images/to-rate.png" id="to-rate-icon" />
+                <img
+                  src="images/account-images/to-rate.png"
+                  id="to-rate-icon"
+                />
                 <p class="acc-text">To rate</p>
+              </a>
               </div>
-            </a>
           </div>
         </div>
       </div>
       <div class="nav-bar">
-        <img class="logo" src="account-images/logo-no-bg.png" />
+        <img class="logo" src="images/account-images/logo-no-bg.png" />
         <ul class="btn-grp">
           <li>
             <button class="selected">
@@ -112,11 +121,7 @@
           <li>
             <button>
               <i class="fa-solid fa-print btn-icon"></i
-              ><a
-                id="print-now-link"
-                href="/print-now-page/print-now-index.html"
-                >Print Now</a
-              >
+              ><a id="print-now-link" href="print-now.html">Print Now</a>
             </button>
           </li>
           <li>
@@ -124,19 +129,19 @@
               <i
                 class="fa-solid fa-clock-rotate-left fa-flip-horizontal btn-icon"
               ></i
-              ><a href="/history-page/history-index.html">History</a>
+              ><a href="history.html">History</a>
             </button>
           </li>
           <li>
             <button>
               <i class="fa-solid fa-gear btn-icon"></i
-              ><a href="/settings-page/settings-index.html">Settings</a>
+              ><a href="settings.html">Settings</a>
             </button>
           </li>
         </ul>
         <button id="log-out">
           <i class="fa-solid fa-arrow-right-from-bracket btn-icon"></i
-          ><a href="/login-page/LogIn System.html">Log out</a>
+          ><a href="index.html">Log out</a>
         </button>
       </div>
     </div>
