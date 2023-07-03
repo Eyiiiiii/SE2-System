@@ -96,15 +96,6 @@
   font-size: 54px;
 }
 
-#withdraw {
-  width: 150px;
-  border: none;
-  border-radius: 5px;
-  background-color: #efd4b6;
-  margin-top: 30px;
-  margin-left: 310px;
-}
-
 .finance {
   /*border: 1px yellow solid;*/
   background: white;
@@ -150,8 +141,4 @@
 
 .pen {
   margin-left: 10px !important;
-}
-
-.gcash-details {
-  margin-right: 260px;
 }
