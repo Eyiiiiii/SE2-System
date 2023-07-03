@@ -523,5 +523,13 @@
  .rating:not(:checked) > label:hover ~ label:before { 
     color: #f9df4a; 
  }
+
+ a:hover, a:visited, a:link, a:active {
+    text-decoration: none !important;
+    color: unset !important;
+    cursor: pointer !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+ }
  
  
