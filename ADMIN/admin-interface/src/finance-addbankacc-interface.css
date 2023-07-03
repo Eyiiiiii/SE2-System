@@ -26,7 +26,7 @@
 }
 
 .finance {
-  border: 1px yellow solid;
+  /*border: 1px yellow solid;*/
   background: white;
   border-radius: 15px;
   height: 270px;
@@ -41,7 +41,7 @@
   left: 410px;
   width: 1000px;
   height: 600px;
-  border: 1px green solid;
+  /*border: 1px green solid;*/
 }
 
 #title {
@@ -52,23 +52,31 @@
 }
 
 #full-name {
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 #account-name {
-  margin-top: 20px;
+  margin-top: 5px;
+}
+
+#bank-name {
+  margin-top: 10px;
 }
 
 .btn-format {
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: right;
 }
 
 #an,
 #bn,
 #fn {
-  background-color: #e0a96d;
+  background-color: #eccaa6;
+}
+
+#bn {
+  width: 440px;
 }
 
 #cancel {
