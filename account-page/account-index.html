@@ -73,22 +73,30 @@
               <p id="user-id">TUP-20-3882</p>
             </div>
             <span id="horizontal-line">&nbsp</span>
-            <div class="icon-box">
-              <img src="account-images/to-pay.png" id="to-pay-icon" />
-              <p class="acc-text">To pay</p>
-            </div>
-            <div class="icon-box grid-2">
-              <img src="account-images/to-print.png" id="to-print-icon" />
-              <p class="acc-text">To print</p>
-            </div>
-            <div class="icon-box grid-3">
-              <img src="account-images/to-deliver.png" id="to-deliver-icon" />
-              <p class="acc-text">To deliver</p>
-            </div>
-            <div class="icon-box grid-4">
-              <img src="account-images/to-rate.png" id="to-rate-icon" />
-              <p class="acc-text">To rate</p>
-            </div>
+            <a href="/to-print-page/to-print-index.html">
+              <div class="icon-box">
+                <img src="account-images/to-pay.png" id="to-pay-icon" />
+                <p class="acc-text">To pay</p>
+              </div>
+            </a>
+            <a href="/to-print-page/to-print-index.html">
+              <div class="icon-box grid-2">
+                <img src="account-images/to-print.png" id="to-print-icon" />
+                <p class="acc-text">To print</p>
+              </div>
+            </a>
+            <a href="/to-deliver-page/to-deliver-index.html">
+              <div class="icon-box grid-3">
+                <img src="account-images/to-deliver.png" id="to-deliver-icon" />
+                <p class="acc-text">To deliver</p>
+              </div>
+            </a>
+            <a href="/to-rate-page/to-rate-index.html">
+              <div class="icon-box grid-4">
+                <img src="account-images/to-rate.png" id="to-rate-icon" />
+                <p class="acc-text">To rate</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -97,7 +105,8 @@
         <ul class="btn-grp">
           <li>
             <button class="selected">
-              <i class="fa-regular fa-user btn-icon"></i>Account
+              <i class="fa-regular fa-user btn-icon"></i
+              ><a href="account-index.html">Account</a>
             </button>
           </li>
           <li>
@@ -115,11 +124,14 @@
               <i
                 class="fa-solid fa-clock-rotate-left fa-flip-horizontal btn-icon"
               ></i
-              >History
+              ><a href="/history-page/history-index.html">History</a>
             </button>
           </li>
           <li>
-            <button><i class="fa-solid fa-gear btn-icon"></i>Settings</button>
+            <button>
+              <i class="fa-solid fa-gear btn-icon"></i
+              ><a href="/settings-page/settings-index.html">Settings</a>
+            </button>
           </li>
         </ul>
         <button id="log-out">
