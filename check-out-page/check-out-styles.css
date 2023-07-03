@@ -169,7 +169,7 @@ hr {
 }
 
 .main-design-order {
-  /*border: 1px solid black;*/
+  border: 1px solid black;
   margin: 0 auto !important;
   background-color: #f7ebeb;
   border-radius: 10px;
