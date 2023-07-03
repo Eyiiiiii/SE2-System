@@ -5,7 +5,7 @@
 }
 
 .wrapper {
-  /*border: red solid 1px;*/
+  border: red solid 1px;
   background-color: #f5ece2;
   position: relative;
   width: 1534px;
@@ -21,8 +21,26 @@
   margin-right: 10px;
 }
 
+.top-date {
+  font-weight: bold;
+  text-align: left;
+  font-size: small;
+}
+
+.top-pending {
+  text-align: right;
+  font-size: small;
+}
+
 .log-out-nav-bar {
   color: #e0a96d;
+}
+
+#log-out {
+  font-size: 20px;
+  background: none;
+  color: #e0a96d;
+  font-weight: lighter;
 }
 
 .admin {
@@ -38,17 +56,51 @@
   /*border: 1px yellow solid;*/
   background: white;
   border-radius: 15px;
-  height: 270px;
+  height: 380px;
   padding-top: 12px;
 }
 
+.main-format {
+  margin-top: 15px;
+}
+
+.main {
+  margin-bottom: 10px;
+  margin-top: -5px !important;
+}
+
 .main-start-design {
+  /*border: 1px black solid;*/
   background-color: #f7ebeb;
+  border-radius: 15px;
+}
+
+.main-second-design {
+  /* border: 1px blue solid;*/
+  background-color: #f7ebeb;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.order-main-design-title {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 15px !important;
+  padding-top: 5px !important;
+  margin-bottom: 10px;
+}
+
+.order-no {
+  text-align: right;
+  padding-right: 20px !important;
+  margin-top: 50px !important;
 }
 
 .user-icon {
   font-size: 50px;
   text-align: right;
+  margin-right: 6px;
+  margin-top: 50px;
 }
 
 .user-info-icon {
@@ -56,8 +108,75 @@
   text-align: right;
 }
 
+.start {
+  padding-top: 50px;
+}
+
+.main-text {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-design-order-file-title {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
 .col-6 {
   padding: 0px !important;
+}
+
+.delivery-details {
+  padding: 0% auto;
+  margin-left: -100px !important;
+  margin-top: 35px !important;
+}
+
+.one {
+  font-weight: bold;
+}
+
+small {
+  font-weight: 500;
+}
+
+.total-format {
+  margin-bottom: 10px;
+}
+
+.total-design {
+  text-align: right;
+  font-weight: bold;
+  margin-left: 750px;
+  margin-right: 5px;
+}
+
+#total-price {
+  font-weight: 500;
+  color: white;
+  background-color: #e0a96d;
+  border-radius: 5px;
+  padding-left: 30px;
+  margin-right: 20px;
+}
+
+.p-btn {
+  border-radius: 5px;
+  background-color: #e0a96d;
+  color: white;
+  border: none;
+}
+
+#dl {
+  width: 160px;
+}
+
+#pc {
+  width: 190px;
+}
+
+#wa {
+  width: 90px;
 }
 
 .logo {
@@ -85,4 +204,11 @@
 .nav-bar-title {
   padding-top: 10px;
   text-align: left;
+}
+
+.btn-icon {
+  font-size: 30px;
+  padding: 3px;
+  padding-top: 10px;
+  text-align: justify;
 }
