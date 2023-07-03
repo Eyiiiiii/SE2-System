@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin Finance | TUPians Print and Meet</title>
-    <link href="src/finance-interface.css" rel="stylesheet" type="text/css" />
+    <title>Add Bank Account | TUPians Print and Meet</title>
+    <link
+      href="src/finance-addbankacc-interface.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,56 +31,36 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="main-content"></div>
-      <div class="admin">
+      <div class="add-bank-acc">
+        <p id="title">Add bank account</p>
         <div class="container finance">
           <div class="row">
-            <div class="col">
-              <div class="container">
+            <div class="container inputs">
+              <div class="row">
+                <div class="col" id="full-name">
+                  <label for="inputFullname" class="form-label">Full name</label
+                  ><input type="text" class="form-control" id="fn" />
+                </div>
+                <div class="col" id="account-name">
+                  <label for="inputAccountnumber" class="form-label"
+                    >Account number</label
+                  >
+                  <input type="text" class="form-control" id="an" />
+                </div>
+              </div>
+              <div class="row" id="bank-name">
+                <div class="col">
+                  <label for="inputBankname" class="form-label"
+                    >Bank name</label
+                  >
+                  <input type="text" class="form-control" id="bn" />
+                </div>
+              </div>
+              <div class="container btn-format">
                 <div class="row">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col" id="title">My Income</div>
-                    </div>
-                    <div class="row">
-                      <div class="col" id="money">P160.00</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="container">
-                  <div class="row">
-                    <div class="col line"></div>
-                  </div>
-                </div>
-
-                <div class="container">
-                  <div class="row"></div>
-                  <div class="row bankacc-format">
-                    <div class="col-2" id="bank-label">Bank Accounts</div>
-                    <div class="col">
-                      <button id="add-bank">Add bank account</button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="container bg-details">
-                  <div class="row">
-                    <div class="col">
-                      <strong> Banko de Oro</strong>
-                      <i class="fa-regular fa-pen-to-square pen"></i>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col">
-                            Account Number: <span>00798513326</span>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col">
-                            Account Name: <span>Admin</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="col">
+                    <button id="cancel">CANCEL</button>
+                    <button id="submit">SUBMIT</button>
                   </div>
                 </div>
               </div>
@@ -89,10 +73,7 @@
       </div>
 
       <div class="nav-bar">
-        <img
-          class="logo"
-          src="/print-now-page/print-now-images/logo-no-bg.png"
-        />
+        <img class="logo" src="/images/print-now-images/logo-no-bg.png" />
         <div class="grid gap-4">
           <div class="p-2 g-col-6 selection">
             <div class="container text-center">
