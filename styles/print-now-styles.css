@@ -1,6 +1,7 @@
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    overflow: hidden;
 }
 
 .wrapper {
@@ -8,7 +9,7 @@
     background-color: #F5ECE2;
     position: relative;
     width: 1534px;
-    height: 710px;
+    height: 800px;
 }
 
 .main-content {
@@ -29,7 +30,7 @@
 .nav-bar {
     background-color: #FCFAF7;
     width: 300px;
-    height: 683px;
+    height: 750px;
     padding: 20px;
     padding-top: 5px;
     margin-right: 10px;
