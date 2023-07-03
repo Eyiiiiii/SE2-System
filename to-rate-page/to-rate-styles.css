@@ -39,7 +39,7 @@
     color: #e0a96d;
   }
   
-  .to-print {
+  .to-rate {
     position: absolute;
     top: 55px;
     left: 410px;
@@ -143,7 +143,17 @@
     border-radius: 15px;
     height: 160px;
     padding-top: 12px;
-    height: 350px;
+    height: max-content;
+  }
+
+  #rate-btn {
+    text-align: center;
+    margin-left: 250px !important;
+    max-width: 250px;
+    border-radius: 10px;
+    margin: 12px;
+    background-color: #E0A96D;
+    font-weight: bold;
   }
   
   .delivery-deets-text {
@@ -159,16 +169,18 @@
     text-align: left;
   }
   
-  .top-design-order-pending {
+  .top-design-order-status {
     text-align: right;
+    font-weight: bold;
   }
   
   .main-design-order {
     /*border: 1px solid black;*/
     margin: 0 auto !important;
+    padding-bottom: 10px !important;
     background-color: #f7ebeb;
     border-radius: 10px;
-    height: 110px;
+    height: max-content;
   }
   
   .main-design-payment-method {
@@ -269,10 +281,18 @@
     margin-right: 20px;
     font-weight: bold;
   }
-  
+
   #price {
+    margin-left: 350px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    right: 10px;
     color: black;
     font-weight: bold;
+    max-width: 75px;
+    border-radius: 5px;
+    background-color: #E0A96D;
+    text-align: center;
   }
 
   #total-price {
@@ -348,9 +368,13 @@
 
   #payment-method-choice {
     font-weight: normal;
-    margin-left: 50px;
   }
-  
+
+  .order-details-payment-method-choice {
+    font-weight: 600;
+    color: #E0A96D;
+  }
+
   #payment {
     font-weight: bold !important;
     text-align: left;
@@ -372,7 +396,7 @@
   
   .bot-bar {
     position: relative;
-    top: 130px;
+    top: 200px;
     border-radius: 10px;
     background-color: #b5aea8;
     height: 150px;
@@ -446,3 +470,58 @@
     font-weight: bold;
   }
   
+  .order-details-format {
+    border-right: 1px solid black;
+  }
+
+  .review-text-area {
+    max-width: 850px !important;
+    margin-top: 6px;
+    margin-left: 20px;
+    height: 25px;
+  }
+
+/* STAR RATING REVIEW*/
+
+.rating { 
+    width: 220px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    height: 45px; 
+    border: 1px solid #ccc; 
+    border-radius: 20px;
+    background: #f9f9f9; 
+} 
+
+.rating label { 
+    position: relative; 
+    width: 40px; 
+    height: 50px; 
+    cursor: pointer; 
+    float: right;
+} 
+
+.rating label:not(:first-of-type) { 
+    padding-left: 2px; 
+ } 
+ 
+.rating label:before { 
+    content: "\2605"; 
+    font-size: 30px; 
+    color: #ccc; 
+    line-height: 1; 
+ }
+
+ .rating input { 
+    display: none; 
+ } 
+ 
+ .rating input:checked ~ label:before, 
+ .rating:not(:checked) > label:hover:before, 
+ .rating:not(:checked) > label:hover ~ label:before { 
+    color: #f9df4a; 
+ }
+ 
+ 

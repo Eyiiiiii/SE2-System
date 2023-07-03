@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To Print | TUPians Print and Meet</title>
-    <link href="to-print-styles.css" rel="stylesheet" type="text/css" />
+    <title>To Rate | TUPians Print and Meet</title>
+    <link href="to-rate-styles.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,15 +33,15 @@
       <span id="top-inv-bar"
         ><i class="fa-solid fa-cart-shopping" style="color: #f2a000"></i>
       </span>
-      <div class="to-print">
-        <p id="title">To Print</p>
+      <div class="to-rate">
+        <p id="title">To Rate</p>
         <div class="container text-center orders">
           <div class="row">
             <div class="col">
               <div class="container text-center top-design-order">
                 <div class="row">
                   <div class="col top-design-order-date">December 25, 2022</div>
-                  <div class="col top-design-order-pending">Printing documents</div>
+                  <div class="col top-design-order-status">Completed</div>
                 </div>
               </div>
             </div>
@@ -54,12 +54,15 @@
                     <div class="container">
                       <div class="row">
                         <div class="col order-main-design-title">ORDER DETAILS</div>
+                        <div class="col">
+                            <p id="price">P150</p>
+                        </div>
                       </div>
                       <div class="row">
                         <div class="col-1 main-design-order-icon">
                           <i class="fa-solid fa-file-pdf" id="pdf"></i>
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 order-details-format">
                           <div class="container main-design-order-texts">
                             <div class="row">
                               <div class="col main-design-order-file-title">Activity 3 - SoftEng</div>
@@ -76,6 +79,19 @@
                             </div>
                           </div>
                         </div>
+                        <div class="col">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col order-details-payment-method-choice ">Cash on Delivery</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">COS BLDG. 03</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">January 26, 3:00 PM</div>
+                                </div>
+                            </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -83,41 +99,44 @@
               </div>
             </div>
           </div>
+          <form>
           <div class="row">
             <div class="col main-design-order-format">
-              <div class="container main-design-payment-method"">
+              <div class="container main-design-payment-method">
                 <div class="row">
-                  <div class="col payment-method-main-title">
-                    PAYMENT METHOD:
-                  <span id="payment-method-choice">Cash on Delivery</span>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col main-design-order-format">
-              <div class="container main-design-delivery-deets">
-                <div class="row">
-                  <div class="col delivery-deets-main-title">
-                      DELIVERY DETAILS:
-                      <span id="payment-method-choice">COS BLDG. 03, January 26, 3:00 PM</span>
+                  <div class="col-1 payment-method-main-title">
+                    REVIEW:
+                  </div>
+                  <div class="col">
+                    <div class="input-group">
+                        <textarea class="form-control review-text-area" aria-label="Review"></textarea>
+                      </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col main-design-order-format">
-              <div class="container main-design-delivery-deets ">
-                <div class="row">
-                  <div class="col delivery-deets-main-title" id="total">TOTAL: <span id="total-price">P150</span></div>
+            <div class="col">
+                <div class="rating"> 
+                    <input type="radio" id="star5" name="rating" value="5" />
+                    <label for="star5"></label> 
+                    <input type="radio" id="star4" name="rating" value="4" />
+                    <label for="star4"></label> 
+                    <input type="radio" id="star3" name="rating" value="3" />
+                    <label for="star3"></label> 
+                    <input type="radio" id="star2" name="rating" value="2" />
+                    <label for="star2"></label> 
+                    <input type="radio" id="star1" name="rating" value="1" />
+                    <label for="star1"></label> 
                 </div>
-              </div>
+            </div>
+            <div class="col">
+                <button id="rate-btn">RATE</button>
             </div>
           </div>
         </div>
-                <div class="container">
+        <div class="container">
           <div class="row">
             <div class="col bot-bar">
               <div class="container text-center">
@@ -243,6 +262,7 @@
             </div>
           </div>
         </div>
+    </form>
         </div>
     <div class="nav-bar">
         <img
@@ -250,7 +270,7 @@
           src="/print-now-page/print-now-images/logo-no-bg.png"
         />
         <div class="grid gap-4">
-          <div class="p-2 g-col-6 selection">
+          <div class="p-2 g-col-6 selection selected">
             <div class="container text-center">
               <div class="row">
                 <div class="col-3">

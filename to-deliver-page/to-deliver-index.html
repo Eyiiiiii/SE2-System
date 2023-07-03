@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To Print | TUPians Print and Meet</title>
-    <link href="to-print-styles.css" rel="stylesheet" type="text/css" />
+    <title>To Deliver | TUPians Print and Meet</title>
+    <link href="to-deliver-styles.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,14 +34,14 @@
         ><i class="fa-solid fa-cart-shopping" style="color: #f2a000"></i>
       </span>
       <div class="to-print">
-        <p id="title">To Print</p>
+        <p id="title">To Deliver</p>
         <div class="container text-center orders">
           <div class="row">
             <div class="col">
               <div class="container text-center top-design-order">
                 <div class="row">
                   <div class="col top-design-order-date">December 25, 2022</div>
-                  <div class="col top-design-order-pending">Printing documents</div>
+                  <div class="col top-design-order-pending">Out for delivery</div>
                 </div>
               </div>
             </div>
@@ -54,12 +54,15 @@
                     <div class="container">
                       <div class="row">
                         <div class="col order-main-design-title">ORDER DETAILS</div>
+                        <div class="col">
+                            <p id="price">P150</p>
+                        </div>
                       </div>
                       <div class="row">
                         <div class="col-1 main-design-order-icon">
                           <i class="fa-solid fa-file-pdf" id="pdf"></i>
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 order-details-format">
                           <div class="container main-design-order-texts">
                             <div class="row">
                               <div class="col main-design-order-file-title">Activity 3 - SoftEng</div>
@@ -76,6 +79,19 @@
                             </div>
                           </div>
                         </div>
+                        <div class="col">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col order-details-payment-method-choice ">Cash on Delivery</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">COS BLDG. 03</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">January 26, 3:00 PM</div>
+                                </div>
+                            </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -88,36 +104,20 @@
               <div class="container main-design-payment-method"">
                 <div class="row">
                   <div class="col payment-method-main-title">
-                    PAYMENT METHOD:
-                  <span id="payment-method-choice">Cash on Delivery</span>
+                    NOTE:
+                  <span id="payment-method-choice">Please prepare exact amount for Cash on Delivery. Thank you!</span>
                 </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col main-design-order-format">
-              <div class="container main-design-delivery-deets">
-                <div class="row">
-                  <div class="col delivery-deets-main-title">
-                      DELIVERY DETAILS:
-                      <span id="payment-method-choice">COS BLDG. 03, January 26, 3:00 PM</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col main-design-order-format">
-              <div class="container main-design-delivery-deets ">
-                <div class="row">
-                  <div class="col delivery-deets-main-title" id="total">TOTAL: <span id="total-price">P150</span></div>
-                </div>
-              </div>
+            <div class="col">
+                <button id="order-received-btn">ORDER RECEIVED</button>
             </div>
           </div>
         </div>
-                <div class="container">
+        <div class="container">
           <div class="row">
             <div class="col bot-bar">
               <div class="container text-center">
