@@ -42,7 +42,7 @@
           </div>
           <div class="row">
             <div class="col main">
-              <div class="container">
+              <div class="container main-format">
                 <div class="row">
                   <div class="col main-start-design">
                     <div class="container">
@@ -65,21 +65,21 @@
 
                         <div class="col delivery-details">
                           <div class="row">
-                            <div class="col">
+                            <div class="col one">
                               DELIVERY DETAILS:
                               <small>COS BLDG. 03, January 26, 3:00PM</small>
                             </div>
                           </div>
                           <div class="row">
-                            <div class="col">
+                            <div class="col one">
                               PAYMENT METHOD: <small>Cash On Delivery</small>
                             </div>
                           </div>
                         </div>
-
-                        <div class="row">
-                          <div class="col">
-                            TOTAL: <span id="total-price">P150</span>
+                        <div class="container total-format">
+                          <div class="row">
+                            <div class="col total-design">TOTAL:</div>
+                            <div class="col" id="total-price">P150</div>
                           </div>
                         </div>
                       </div>
@@ -94,14 +94,19 @@
             <div class="col main">
               <div class="container">
                 <div class="row">
-                  <div class="col main-start-design">
+                  <div class="col main-second-design">
                     <div class="container">
+                      <div class="row">
+                        <div class="col order-main-design-title">
+                          ORDER DETAILS
+                        </div>
+                      </div>
                       <div class="row">
                         <div class="col-1 user-info-icon">
                           <i class="fa-solid fa-file-pdf" id="pdf"></i>
                         </div>
                         <div class="col-6">
-                          <div class="container start">
+                          <div class="container second">
                             <div class="row">
                               <div class="col main-design-order-file-title">
                                 Activity 3 - SoftEng
@@ -119,11 +124,26 @@
                             </div>
                           </div>
                         </div>
+                        <div class="col order-no">
+                          Order no. <strong>#0001</strong>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <button class="p-btn" id="dl">Download file</button>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <button class="p-btn" id="pc">Printing Completed</button>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <button class="p-btn" id="wa">waiver</button>
             </div>
           </div>
         </div>
