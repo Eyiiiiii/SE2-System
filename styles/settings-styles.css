@@ -10,7 +10,7 @@
     background-color: #F5ECE2;
     position: relative;
     width: 1534px;
-    height: 710px;
+    height: 800px;
 }
 
 .main-content {
@@ -31,7 +31,7 @@
 .nav-bar {
     background-color: #FCFAF7;
     width: 340px;
-    height: 710px;
+    height: 800px;
     padding: 20px;
     padding-top: 5px;
     margin-right: 10px;
@@ -177,3 +177,11 @@ hr {
 .change-password-option {
     color: #F2A000;
 }
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none !important;
+    color: unset !important;
+    cursor: pointer !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+ }
