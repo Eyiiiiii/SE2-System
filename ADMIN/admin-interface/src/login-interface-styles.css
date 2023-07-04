@@ -10,6 +10,7 @@ body {
 header {
   background-color: #ddc3a5;
   margin: 0;
+  margin-bottom: 50px;
   padding: 2px;
 }
 
@@ -60,6 +61,7 @@ form {
   border: none;
   font-weight: bold;
   margin: 5px;
+  margin-left: 200px !important;
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
@@ -141,7 +143,7 @@ h1 {
 
 .footer {
   background: #f5ece2;
-  margin-top: 20px;
+  margin-top: 70px;
   height: 200px;
   color: black;
   font-size: 12px;
