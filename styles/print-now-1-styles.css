@@ -197,7 +197,10 @@ a:hover, a:visited, a:link, a:active {
     border: 1px solid black !important;
     border-radius: 5px !important;
     margin: 10px;
+    padding-left: 30px !important;
     margin-bottom: 30px;
+    background-color: #FCFAF7 !important;
+    font-size: 14px !important;
  }
 
  .page-setup-border-line {
