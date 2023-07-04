@@ -1,0 +1,175 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.wrapper {
+  /*border: red solid 1px;*/
+  background-color: #f5ece2;
+  position: relative;
+  width: 1534px;
+  height: 710px;
+}
+
+.main-content {
+  position: absolute;
+  left: 340px;
+  /*border: blue solid 1px;*/
+  width: 1193px;
+  height: 707px;
+}
+
+#top-inv-bar {
+  position: absolute;
+  top: 25px;
+  right: 155px;
+  font-size: 25px;
+}
+
+.nav-bar {
+  background-color: #fcfaf7;
+  width: 340px;
+  height: 710px;
+  padding: 20px;
+  padding-top: 5px;
+  margin-right: 10px;
+}
+
+.log-out-nav-bar {
+  color: #e0a96d;
+}
+
+.settings {
+  position: absolute;
+  top: 55px;
+  left: 410px;
+  width: 1000px;
+  height: 600px;
+  /*border: 1px green solid;*/
+}
+
+#rectangle-line {
+  background: #f2a000;
+  font-size: 5px;
+  position: absolute;
+  top: 80px;
+  left: 88px;
+  padding-right: 100px;
+}
+
+.logo {
+  width: 60%;
+}
+
+.selection {
+  background-color: #f5ece2;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.p-2 {
+  padding: 0.75rem !important;
+}
+
+.btn-grp {
+  position: absolute;
+  top: 0;
+  padding: 0px;
+}
+
+.btn-icon {
+  font-size: 30px;
+  padding: 3px;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.selected {
+  background: #f6c668;
+}
+
+.nav-bar-title {
+  padding-top: 10px;
+  text-align: left;
+}
+
+#log-out {
+  font-size: 20px;
+  background: none;
+  color: #e0a96d;
+  font-weight: lighter;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+hr {
+  color: black;
+  width: 850px;
+}
+
+.profile-icon {
+  font-size: 100px;
+  text-align: center;
+}
+
+.top-settings-user-info {
+  height: 140px;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.settings-user-info {
+  margin-top: 25px;
+}
+
+.admin {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-left: none;
+}
+
+.web-name {
+  color: #f2a000;
+  font-size: 12px;
+}
+
+.form-format {
+  margin-bottom: 20px !important;
+}
+
+.form-control {
+  border: 1px solid black !important;
+}
+
+.change {
+  padding-top: 4px;
+}
+
+#change-pass {
+  color: #f2a000;
+  text-decoration: none;
+}
+
+#change-pass:hover {
+  text-decoration: underline;
+}
