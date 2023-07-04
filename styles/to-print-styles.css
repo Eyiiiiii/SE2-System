@@ -372,7 +372,7 @@
   
   .bot-bar {
     position: relative;
-    top: 130px;
+    top: 110px;
     border-radius: 10px;
     background-color: #b5aea8;
     height: 150px;
@@ -446,3 +446,10 @@
     font-weight: bold;
   }
   
+  a:hover, a:visited, a:link, a:active {
+    text-decoration: none !important;
+    color: unset !important;
+    cursor: pointer !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+ }

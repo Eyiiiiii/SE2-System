@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Print | TUPians Print and Meet</title>
-    <link href="to-print-styles.css" rel="stylesheet" type="text/css" />
+    <link href="styles/to-print-styles.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,8 +30,10 @@
       <div class="main-content">
         <span id="rectangle-line">&nbsp</span>
       </div>
-      <span id="top-inv-bar"
-        ><i class="fa-solid fa-cart-shopping" style="color: #f2a000"></i>
+      <span id="top-inv-bar">
+        <a href="cart.html">
+        <i class="fa-solid fa-cart-shopping" style="color: #f2a000"></i>
+      </a>
       </span>
       <div class="to-print">
         <p id="title">To Print</p>
@@ -117,7 +119,7 @@
             </div>
           </div>
         </div>
-                <div class="container">
+        <div class="container">
           <div class="row">
             <div class="col bot-bar">
               <div class="container text-center">
@@ -157,8 +159,9 @@
                           <div class="container">
                             <div class="row">
                               <div class="col bot-box-format">
+                                <a href="to-pay.html">
                                 <img
-                                  src="/account-page/account-images/to-pay.png"
+                                  src="images/account-images/to-pay.png"
                                   alt=""
                                   id="to-pay-img"
                                 />
@@ -167,6 +170,7 @@
                             <div class="row">
                               <div class="col">To pay</div>
                             </div>
+                          </a>
                           </div>
                         </div>
                       </div>
@@ -179,8 +183,9 @@
                           <div class="container">
                             <div class="row">
                               <div class="col bot-box-format">
+                                <a href="to-print.html">
                                 <img
-                                  src="/account-page/account-images/to-print.png"
+                                  src="images/account-images/to-print.png"
                                   alt=""
                                   id="to-print-img"
                                 />
@@ -189,6 +194,7 @@
                             <div class="row">
                               <div class="col">To print</div>
                             </div>
+                          </a>
                           </div>
                         </div>
                       </div>
@@ -201,8 +207,9 @@
                           <div class="container">
                             <div class="row">
                               <div class="col bot-box-format">
+                                <a href="to-deliver.html">
                                 <img
-                                  src="/account-page/account-images/to-deliver.png"
+                                  src="images/account-images/to-deliver.png"
                                   alt=""
                                   id="to-deliver-img"
                                 />
@@ -211,6 +218,7 @@
                             <div class="row">
                               <div class="col">To deliver</div>
                             </div>
+                          </a>
                           </div>
                         </div>
                       </div>
@@ -223,8 +231,9 @@
                           <div class="container">
                             <div class="row">
                               <div class="col bot-box-format">
+                                <a href="to-rate.html">
                                 <img
-                                  src="/account-page/account-images/to-rate.png"
+                                  src="images/account-images/to-rate.png"
                                   alt=""
                                   id="to-rate-img"
                                 />
@@ -233,6 +242,7 @@
                             <div class="row">
                               <div class="col">To rate</div>
                             </div>
+                          </a>
                           </div>
                         </div>
                       </div>
@@ -247,16 +257,16 @@
     <div class="nav-bar">
         <img
           class="logo"
-          src="/print-now-page/print-now-images/logo-no-bg.png"
+          src="images/print-now-images/logo-no-bg.png"
         />
         <div class="grid gap-4">
-          <div class="p-2 g-col-6 selection">
+          <div class="p-2 g-col-6 selection selected">
             <div class="container text-center">
               <div class="row">
                 <div class="col-3">
                   <i class="fa-regular fa-user btn-icon"></i>
                 </div>
-                <div class="col nav-bar-title">Account</div>
+                <div class="col nav-bar-title"><a href="account.html">Account</a></div>
               </div>
             </div>
           </div>
@@ -266,7 +276,7 @@
                 <div class="col-3">
                   <i class="fa-solid fa-print btn-icon"></i>
                 </div>
-                <div class="col nav-bar-title">Print Now</div>
+                <div class="col nav-bar-title"><a href="print-now.html">Print Now</a></div>
               </div>
             </div>
           </div>
@@ -279,7 +289,7 @@
                   >
                   </i>
                 </div>
-                <div class="col nav-bar-title">History</div>
+                <div class="col nav-bar-title"><a href="history.html">History</a></div>
               </div>
             </div>
           </div>
@@ -289,14 +299,10 @@
                 <div class="col-3">
                   <i class="fa-solid fa-gear btn-icon"></i>
                 </div>
-                <div class="col nav-bar-title">Settings</div>
+                <div class="col nav-bar-title"><a href="settings.html">Settings</a></div>
               </div>
             </div>
           </div>
-          <div class="p-2 g-col-6"></div>
-          <div class="p-2 g-col-6"></div>
-          <div class="p-2 g-col-6"></div>
-          <div class="p-2 g-col-6"></div>
           <div class="p-2 g-col-6"></div>
           <div class="p-2 g-col-6"></div>
           <div class="p-2 g-col-6"></div>
@@ -313,7 +319,7 @@
             <div class="col-3">
               <i class="fa-solid fa-arrow-right-from-bracket btn-icon"></i>
             </div>
-            <div class="col nav-bar-title" id="log-out">Log out</div>
+            <div class="col nav-bar-title" id="log-out"><a href="index.html">Log out</a></div>
           </div>
         </div>
       </div>
