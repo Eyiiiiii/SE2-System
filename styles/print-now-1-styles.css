@@ -6,7 +6,7 @@
 }
 
 .wrapper {
-    border: red solid 1px;
+    /*border: red solid 1px;*/
     background-color: #F5ECE2;
     position: relative;
     width: 1534px;
@@ -16,7 +16,7 @@
 .main-content {
     position: absolute;
     left: 340px;
-    border: blue solid 1px;
+    /*border: blue solid 1px;*/
     width: 1193px;
     height: 800px;
 }
@@ -47,7 +47,7 @@
     left: 410px;
     width: 1000px;
     height: 600px;
-    border: 1px green solid;
+    /*border: 1px green solid;*/
 }
 
 #rectangle-line {
@@ -192,8 +192,59 @@ a:hover, a:visited, a:link, a:active {
 
  .print-now-selection {
     text-align: left;
-    max-width: 200px;
+    max-width: 300px;
+    height: 50px;
     border: 1px solid black !important;
     border-radius: 5px !important;
+    margin: 10px;
+    margin-bottom: 30px;
+ }
 
+ .page-setup-border-line {
+    max-width: 960px !important;
+    padding-bottom: 20px !important;
+    border-bottom: 1px solid black;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+ }
+
+ .special-instruction-format {
+    margin-bottom: 15px;
+ }
+
+ .text-area-format {
+    max-width: 960px;
+    margin: 0px auto;
+    font-size: 12px !important;
+ }
+
+ .print-now-buttons {
+    width: 250px;
+    border: 1px solid black !important;
+    border-radius: 15px !important;
+    font-weight: bold !important;
+ }
+
+ #check-out {
+    background-color: white;
+ }
+
+ #check-out:hover {
+    transition: ease-in-out all 200ms;
+    background-color: #F2A000;
+ }
+
+ #add-to-cart:hover {
+    transition: ease-in-out all 200ms;
+    background-color: white;
+ }
+ 
+ #add-to-cart {
+    background-color: #F2A000;
+ }
+
+ .print-now-buttons-format {
+    margin-bottom: 20px;
  }

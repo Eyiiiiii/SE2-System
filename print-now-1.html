@@ -80,18 +80,24 @@
           <div class="row">
             <div class="col page-setup-title-width-format">Page Setup</div>
           </div>
-          <div class="row">
-            <div class="container text-center">
+          <div class="row special-instruction-format">
+            <div class="container text-center page-setup-border-line">
               <div class="row">
                 <div class="col">
-                  <select
-                    class="form-select print-now-selection"
-                    aria-label="Default select example"
-                  >
-                    <option selected>Page Orientation</option>
-                    <option value="Portrait">Portrait</option>
-                    <option value="Landscape">Landscape</option>
-                  </select>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <select
+                          class="form-select print-now-selection"
+                          aria-label="Default select example"
+                        >
+                          <option selected>Page Orientation</option>
+                          <option value="Portrait">Portrait</option>
+                          <option value="Landscape">Landscape</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="col">
                   <div class="container">
@@ -126,22 +132,83 @@
                           aria-label="Default select example"
                         >
                           <option selected>Page Size</option>
-                          <option value="Normal">Letter</option>
-                          <option value="Narrow">Tabloid</option>
-                          <option value="Moderate">Legal</option>
-                          <option value="Wide">Statement</option>
-                          <option value="Mirrored">Executive</option>
-                          <option value="Office 2003 Default">A3</option>
-                          <option value="Moderate">A4</option>
-                          <option value="Wide">A5</option>
-                          <option value="Mirrored">B4</option>
+                          <option value="Letter">Letter</option>
+                          <option value="Tabloid">Tabloid</option>
+                          <option value="Legal">Legal</option>
+                          <option value="Statement">Statement</option>
+                          <option value="Executive">Executive</option>
+                          <option value="A3">A3</option>
+                          <option value="A4">A4</option>
+                          <option value="A5">A5</option>
+                          <option value="B4">B4</option>
                           <option value="Office 2003 Default">B5</option>
                         </select>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col">4</div>
+                <div class="col">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <select
+                          class="form-select print-now-selection"
+                          aria-label="Default select example"
+                        >
+                          <option selected>Color</option>
+                          <option value="Black">Black</option>
+                          <option value="Colored">Colored</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col page-setup-title-width-format">
+              Special Instructions
+            </div>
+          </div>
+          <div class="row">
+            <div class="col print-now-buttons-format">
+              <div class="mb-3">
+                <textarea
+                  class="form-control text-area-format"
+                  placeholder="Enter special instructions here..."
+                  id="exampleFormControlTextarea1"
+                  maxlength="600"
+                  rows="4"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <a href="check-out.html">
+                    <button
+                      type="button"
+                      class="btn print-now-buttons"
+                      id="check-out"
+                    >
+                      Check Out
+                    </button>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="cart.html">
+                    <button
+                      type="button"
+                      class="btn print-now-buttons"
+                      id="add-to-cart"
+                    >
+                      Add to Cart
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
