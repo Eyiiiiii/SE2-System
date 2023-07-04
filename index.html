@@ -28,22 +28,21 @@
       <button class="hs" id="one">Home</button>
     </header>
 
-    <form>
+    <form action="account.html">
       <span>
         <img src="/images/printnmeet-no-title.png" />
         <h1>Login</h1>
       </span>
 
       <div class="mb-3">
-        <label for="loginUsingEmail" class="form-label"
-          >Log in with username</label
-        >
+        <label for="username" class="form-label">Log in with username</label>
         <div class="input-icon">
           <input
-            type="email"
+            type="text"
             class="form-control"
-            id="loginUsingEmail"
-            aria-describedby="emailHelp"
+            id="username"
+            pattern="TUPM-\d{2}-\d{4}"
+            required
           />
         </div>
       </div>
@@ -53,9 +52,7 @@
         <input type="password" class="form-control" id="loginPassword" />
       </div>
 
-      <button type="submit" class="btn-login">
-        <a href="account.html">Log in</a>
-      </button>
+      <button type="submit" class="btn-login" id="popup">Log in</button>
     </form>
     <div class="footer">
       <p id="typographic-logo">TUPIANS PRINT & MEET</p>
@@ -74,6 +71,6 @@
         </div>
       </div>
     </div>
-    <script src="src1/index.js"></script>
+    <script src=""></script>
   </body>
 </html>
