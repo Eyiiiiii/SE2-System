@@ -20,19 +20,6 @@
   height: 800px;
 }
 
-.nav-bar {
-  background-color: #fcfaf7;
-  width: 340px;
-  height: 800px;
-  padding: 20px;
-  padding-top: 5px;
-  margin-right: 10px;
-}
-
-.log-out-nav-bar {
-  color: #e0a96d;
-}
-
 .admin {
   position: absolute;
   top: 55px;
@@ -44,6 +31,19 @@
 
 .logo {
   width: 60%;
+}
+
+.nav-bar {
+  background-color: #fcfaf7;
+  width: 340px;
+  height: 800px;
+  padding: 20px;
+  padding-top: 5px;
+  margin-right: 10px;
+}
+
+.log-out-nav-bar {
+  color: #e0a96d;
 }
 
 .selection {
