@@ -24,6 +24,8 @@ form {
   background-color: white;
   padding: 20px;
   border-radius: 15px;
+  overflow: hidden;
+  margin-top: 70px;
 }
 
 #one {
@@ -65,7 +67,6 @@ form {
   border-color: black;
   transition: all ease-in-out 200ms;
   position: relative;
-  padding-left: 35px;
 }
 
 .form-control:hover {
@@ -96,18 +97,11 @@ form {
   position: relative;
 }
 
-.input-icon i {
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1;
-}
-
 .hs {
   border: none;
   font-weight: bold;
   margin: 5px;
+  margin-left: 200px;
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
@@ -116,19 +110,6 @@ form {
   font-size: 12px;
   position: relative;
   left: 80%;
-}
-
-.conti {
-  transition: all ease-in-out 200ms;
-}
-
-button.conti i {
-  margin-right: 10px;
-}
-
-.interface-cont {
-  text-align: center;
-  margin-top: 6%;
 }
 
 .btn-login {
@@ -141,7 +122,6 @@ button.conti i {
   padding: 5px 0 5px;
 }
 
-.conti:hover,
 #two:hover {
   background-color: #e0a96d;
   color: white;
@@ -156,17 +136,6 @@ button.conti i {
 
 p {
   text-align: center;
-}
-
-#sp {
-  color: #f2a000 !important;
-  font-weight: thick;
-  text-decoration: none;
-}
-
-#or {
-  display: block;
-  opacity: 0.7;
 }
 
 span {
@@ -213,7 +182,7 @@ h1 {
 
 .footer {
   background: #f5ece2;
-  margin-top: 20px;
+  margin-top: 100px;
   height: 200px;
   color: black;
   font-size: 12px;
@@ -245,7 +214,10 @@ hr {
   margin-left: 5px;
 }
 
-a:hover, a:visited, a:link, a:active {
+a:hover,
+a:visited,
+a:link,
+a:active {
   text-decoration: none !important;
   color: unset !important;
   cursor: pointer !important;

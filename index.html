@@ -26,7 +26,6 @@
   <body>
     <header>
       <button class="hs" id="one">Home</button>
-      <button class="hs" id="two"><a href="signup.html">Sign Up</a></button>
     </header>
 
     <form>
@@ -35,24 +34,11 @@
         <h1>Login</h1>
       </span>
 
-      <div class="interface-cont">
-        <button class="conti" id="gog" onclick="handleGoogleButtonClick()">
-          <i class="fab fa-google"></i> Continue with Google
-        </button>
-        <br />
-        <button class="conti" id="mic" onclick="handleMicrosoftButtonClick()">
-          <i class="fab fa-microsoft"></i> Continue with Microsoft
-        </button>
-      </div>
-      <br />
-      <span id="or">- or -</span>
-      <br />
       <div class="mb-3">
         <label for="loginUsingEmail" class="form-label"
-          >Log in with username or email</label
+          >Log in with username</label
         >
         <div class="input-icon">
-          <i class="fas fa-envelope"></i>
           <input
             type="email"
             class="form-control"
@@ -63,27 +49,13 @@
       </div>
 
       <div class="mb-3">
-        <label for="studentNum" class="form-label">Student Number</label>
-        <input type="text" class="form-control" id="studentNum" />
-      </div>
-
-      <div class="mb-3">
         <label for="loginPassword" class="form-label">Password</label>
         <input type="password" class="form-control" id="loginPassword" />
       </div>
 
-      <div id="forgotPass">
-        <a href="#">Forgot password?</a>
-      </div>
       <button type="submit" class="btn-login">
         <a href="account.html">Log in</a>
       </button>
-      <br />
-      <br />
-      <p>
-        <span class="sign-up-question">Don't have any account?</span>
-        <a id="sp" href="signup.html">Sign up.</a>
-      </p>
     </form>
     <div class="footer">
       <p id="typographic-logo">TUPIANS PRINT & MEET</p>
