@@ -29,7 +29,7 @@ require_once('./config.php');
   </head>
   <body>
     <header>
-      <button class="hs" id="one">Home</button>
+      <button class="hs" id="one">Admin</button>
     </header>
 
     <form>
