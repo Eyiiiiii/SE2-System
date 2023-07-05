@@ -90,6 +90,11 @@ button {
     border: none;
 }
 
+a #print {
+    text-decoration: none;
+    color: black;
+}
+
 .btn-grp {
     position: absolute;
     top: 0;
