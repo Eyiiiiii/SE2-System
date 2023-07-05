@@ -29,6 +29,11 @@
   /*border: 1px green solid;*/
 }
 
+#add {
+  color: white;
+  text-decoration: none;
+}
+
 .logo {
   width: 60%;
 }

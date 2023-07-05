@@ -148,4 +148,14 @@
       <!--wrapper closing tag-->
     </div>
   </body>
+  <script>
+    function submitButton(event) {
+      event.preventDefault();
+      alert("Successfully Added!");
+
+    }
+    let submit = document.querySelector("#submit");
+    submit.addEventListener("click",submitButton);
+    
+  </script>
 </html>
