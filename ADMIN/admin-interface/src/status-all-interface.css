@@ -20,6 +20,16 @@
   height: 800px;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+}
+
+#settings {
+  text-decoration: none;
+  color: black;
+}
+
 #title {
   font-weight: bold;
   font-size: 25px;

@@ -12,6 +12,16 @@
   height: 800px;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+}
+
+#status {
+  color: black;
+  text-decoration: none;
+}
+
 .nav-bar {
   background-color: #fcfaf7;
   width: 340px;
