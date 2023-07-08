@@ -97,7 +97,7 @@
             </div>
             <div class="row">
               <div class="col">
-                <button type="button" class="btn btn-sm reset-button">
+                <button type="button" class="btn btn-sm reset-button" id="reset">
                   Reset
                 </button>
               </div>
@@ -174,10 +174,20 @@
             <div class="col-3">
               <i class="fa-solid fa-arrow-right-from-bracket btn-icon"></i>
             </div>
-            <div class="col nav-bar-title" id="log-out">Log out</div>
+            <div class="col nav-bar-title" id="log-out"><button><a href="login-interface.html" id="log">Log out</a></button></div>
           </div>
         </div>
       </div>
     </div>
   </body>
+  <script>
+    function submitButton(event) {
+      event.preventDefault();
+      alert("Reset Successfull!");
+
+    }
+    let submit = document.querySelector("#reset");
+    submit.addEventListener("click",submitButton);
+    
+  </script>
 </html>

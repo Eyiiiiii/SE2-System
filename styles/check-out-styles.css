@@ -88,6 +88,11 @@ button {
   border: none;
 }
 
+#confirm-link {
+  color: white;
+  text-decoration: none;
+}
+
 .btn-grp {
   position: absolute;
   top: 0;

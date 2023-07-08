@@ -20,6 +20,17 @@
   height: 707px;
 }
 
+button {
+  background-color: transparent;
+}
+
+#log {
+  color: #e0a96d;
+  background-color: transparent !important;
+  text-decoration: none;
+}
+
+
 #top-inv-bar {
   position: absolute;
   top: 25px;

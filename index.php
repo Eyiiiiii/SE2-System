@@ -1,4 +1,6 @@
-
+<?php 
+require_once('./config.php'); 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,26 +21,28 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Titillium+Web&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="src/login-interface-styles.css" />
+    <link rel="stylesheet" href="/styles/login-styles.css" />
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compautible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin Login | TUPians Print & Meet</title>
+    <title>Login | TUPians Print & Meet</title>
   </head>
   <body>
     <header>
-      <button class="hs" id="one">Home</button>
+      <button class="hs" id="one">Admin</button>
     </header>
 
-    <form action="to-do-list-interface.html">
+    <form>
       <span>
-        <img src="/images/print-now-images/logo-no-bg.png">
+        <img src="/images/printnmeet-no-title.png" />
         <h1>Login</h1>
       </span>
 
       <div class="mb-3">
-        <label for="username" class="form-label">Username</label>
-        <input type="email" class="form-control" id="username" />
+        <label for="loginUsingEmail" class="form-label">Log in with username</label>
+        <div class="input-icon">
+        <input type="email" class="form-control" id="loginUsingEmail" aria-describedby="emailHelp" />
+        </div>
       </div>
 
       <div class="mb-3">
@@ -46,12 +50,9 @@
         <input type="password" class="form-control" id="loginPassword" />
       </div>
 
-      <div id="forgotPass">
-        <a href="#">Forgot password?</a>
-      </div>
-      <button type="submit" class="btn-login">Log in</button>
-      <br />
-      <br />
+      <button type="submit" class="btn-login">
+        <a href="account.html">Log in</a>
+      </button>
     </form>
     <div class="footer">
       <p id="typographic-logo">TUPIANS PRINT & MEET</p>

@@ -114,7 +114,8 @@
                   >
                   </i>
                 </div>
-                <div class="col nav-bar-title">Status</div>
+                <div class="col nav-bar-title">
+                  <button><a href="status-all-interface.html" id="status">Status</a></button></div>
               </div>
             </div>
           </div>
@@ -148,4 +149,14 @@
       <!--wrapper closing tag-->
     </div>
   </body>
+  <script>
+    function submitButton(event) {
+      event.preventDefault();
+      alert("Successfully Added!");
+
+    }
+    let submit = document.querySelector("#submit");
+    submit.addEventListener("click",submitButton);
+    
+  </script>
 </html>
