@@ -31,6 +31,7 @@
 
 .log-out-nav-bar {
   color: #e0a96d;
+  margin-top: -30px;
 }
 
 .admin {
@@ -40,6 +41,27 @@
   width: 1000px;
   height: 600px;
   /* border: 1px green solid; */
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+#admin,
+#fin,
+#settings,
+#print,
+#settings,
+#status {
+  color: black;
+  text-decoration: none;
+}
+
+#out {
+  color: #e0a96d;
+  border: none;
+  text-decoration: none;
 }
 
 .logo {

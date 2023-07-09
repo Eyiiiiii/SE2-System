@@ -101,6 +101,27 @@
   font-size: 54px;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+}
+
+#admin,
+#fin,
+#settings,
+#print,
+#settings,
+#status {
+  color: black;
+  text-decoration: none;
+}
+
+#out {
+  color: #e0a96d;
+  border: none;
+  text-decoration: none;
+}
+
 .finance {
   /*border: 1px yellow solid;*/
   background: white;

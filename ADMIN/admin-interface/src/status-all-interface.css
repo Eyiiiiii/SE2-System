@@ -25,9 +25,20 @@ button {
   background-color: transparent;
 }
 
-#settings {
-  text-decoration: none;
+#admin,
+#fin,
+#settings,
+#print,
+#settings,
+#status {
   color: black;
+  text-decoration: none;
+}
+
+#out {
+  color: #e0a96d;
+  border: none;
+  text-decoration: none;
 }
 
 #title {

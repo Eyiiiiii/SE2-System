@@ -21,15 +21,31 @@
 }
 
 button {
+  border: none;
   background-color: transparent;
 }
 
-#log {
-  color: #e0a96d;
-  background-color: transparent !important;
+.set,
+.out {
+  border: none;
+  background-color: transparent;
+}
+
+#admin,
+#fin,
+#settings,
+#print,
+#settings,
+#status {
+  color: black;
   text-decoration: none;
 }
 
+#out {
+  color: #e0a96d;
+  border: none;
+  text-decoration: none;
+}
 
 #top-inv-bar {
   position: absolute;
@@ -49,6 +65,7 @@ button {
 
 .log-out-nav-bar {
   color: #e0a96d;
+  margin-top: -80px;
 }
 
 .settings {

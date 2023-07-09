@@ -81,7 +81,11 @@
                 <div class="col-3">
                   <i class="fa-regular fa-user btn-icon"></i>
                 </div>
-                <div class="col nav-bar-title">Admin</div>
+                <div class="col nav-bar-title">
+                  <button>
+                    <a href="to-do-list-interface.html" id="admin">Admin</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -91,7 +95,11 @@
                 <div class="col-3">
                   <i class="fa-solid fa-print btn-icon"></i>
                 </div>
-                <div class="col nav-bar-title">Print Now</div>
+                <div class="col nav-bar-title">
+                  <button>
+                    <a href="print-now-interface.html" id="print">Print Now</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -101,7 +109,11 @@
                 <div class="col-3">
                   <i class="fa-solid fa-wallet btn-icon"></i>
                 </div>
-                <div class="col nav-bar-title">Finance</div>
+                <div class="col nav-bar-title">
+                  <button>
+                    <a href="finance-interface.html" id="fin">Finance</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -115,7 +127,10 @@
                   </i>
                 </div>
                 <div class="col nav-bar-title">
-                  <button><a href="status-all-interface.html" id="status">Status</a></button></div>
+                  <button>
+                    <a href="status-all-interface.html" id="status">Status</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -125,7 +140,13 @@
                 <div class="col-3">
                   <i class="fa-solid fa-gear btn-icon"></i>
                 </div>
-                <div class="col nav-bar-title">Settings</div>
+                <div class="col nav-bar-title">
+                  <button>
+                    <a href="settings-admin-interface.html" id="settings"
+                      >Settings</a
+                    >
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -142,7 +163,9 @@
             <div class="col-3">
               <i class="fa-solid fa-arrow-right-from-bracket btn-icon"></i>
             </div>
-            <div class="col nav-bar-title" id="log-out">Log out</div>
+            <div class="col nav-bar-title" id="log-out">
+              <button><a href="index.html" id="out">Log out</a></button>
+            </div>
           </div>
         </div>
       </div>
@@ -153,10 +176,8 @@
     function submitButton(event) {
       event.preventDefault();
       alert("Successfully Added!");
-
     }
     let submit = document.querySelector("#submit");
-    submit.addEventListener("click",submitButton);
-    
+    submit.addEventListener("click", submitButton);
   </script>
 </html>
