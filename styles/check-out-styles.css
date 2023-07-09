@@ -88,6 +88,15 @@ button {
   border: none;
 }
 
+#account,
+#print,
+#history,
+#settings {
+  color: black;
+  border: none;
+  text-decoration: none;
+}
+
 #confirm-link {
   color: white;
   text-decoration: none;
